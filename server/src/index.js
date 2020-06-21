@@ -9,7 +9,8 @@ async function doit() {
   const ANDY_HOPP_ID = 42705;
   const JA_USER_ID = 93029742;
 
-  thing = await grapi.authorBooks(ANDY_HOPP_ID, 1);
+  thing = await grapi.authorShow(ANDY_HOPP_ID, 1);
+  // thing = await grapi.authorBooks(ANDY_HOPP_ID, 1);
   // thing = await grapi.reviewList(JA_USER_ID, 'gaming', 999);
   // thing = await grapi.shelfList(JA_USER_ID, 1);
   // TODO OAUTH thing = await grapi.ownedBooksList(JA_USER_ID, 1);
