@@ -81,6 +81,11 @@ class GRAPI {
   // https://www.goodreads.com/api/index#search.authors   —   Find an author by name.
   // https://www.goodreads.com/api/index#search.books   —   Find books by title, author, or ISBN.
   // https://www.goodreads.com/api/index#series.show   —   See a series.
+  async seriesShow(seriesId) {
+    return this.fetch(`series/show/${seriesId}.xml`, {})
+      .then(response => this.parser.parse(response));
+  }
+
   // https://www.goodreads.com/api/index#series.list   —   See all series by an author.
   // https://www.goodreads.com/api/index#series.work   —   See all series a work is in.
   // https://www.goodreads.com/api/index#shelves.add_to_shelf   —   Add a book to a shelf.
