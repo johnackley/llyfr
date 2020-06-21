@@ -1,23 +1,20 @@
-const xml2js = require('xml2js');
-const { Response } = require('./response');
+const { AuthorList } = require('./author-list');
+const { ReviewList } = require('./review-list');
+const { ShelfList } = require('./shelf-list');
 
 class Parser {
-  constructor(options = {}) {
-    this.options = options;
+  constructor() {
   }
 
-  async parse(responseXML) {
-  // console.log(responseXML);
-  return xml2js.parseStringPromise(responseXML /* this.options */ ).then(function (result) {
-      // console.log('xml parsed to:', result);
-      return new Response(result.GoodreadsResponse);
-    })
-    .catch(function (err) {
-      // Failed
-      console.log('xml parse failed', err);
-    });
+  async parse(response) {
+    switch (response.method) {
+      case 'author_list': return new AuthorList(response.payload);
+      case 'review_list': return new ReviewList(response.payload);
+      case 'shelf_list': return new ShelfList(response.payload);
+      default:
+        console.log(`no parser configured for ${response.method}`, response);
+    }
   }
-
 }
 
 module.exports = { Parser };
