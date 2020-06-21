@@ -54,8 +54,8 @@ class GRAPI {
   // https://www.goodreads.com/api/index#review.destroy   —   Delete a book review.
   // https://www.goodreads.com/api/index#reviews.list   —   Get the books on a members shelf.
   async reviewList(userId, name, perPage = process.env.PER_PAGE) {
-    return this.fetch(`review/list/${userId}.xml`,
-      { v: 2, shelf: name, per_page: perPage });
+    return this.fetch(`review/list/${userId}.xml`, { v: 2, shelf: name, per_page: perPage })
+      .then(result => this.parser.parseShelf(result));
   }
 
   // https://www.goodreads.com/api/index#review.recent_reviews   —   Recent reviews from all members..
