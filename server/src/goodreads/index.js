@@ -1,6 +1,7 @@
 const { Author } = require('./author');
 const { Book } = require('./book');
 const { ImageURL } = require('./image-url');
+const { GRAPI } = require('./api');
 const { Pagination } = require('./pagination');
 const { Parser } = require('./parser');
 const { Response } = require('./response');
@@ -12,6 +13,7 @@ module.exports = {
   Author,
   Book,
   ImageURL,
+  GRAPI,
   Pagination,
   Parser,
   Response,
