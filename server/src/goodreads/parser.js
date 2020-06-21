@@ -5,7 +5,7 @@ class Parser {
     this.options = options;
   }
 
-  async parseShelf(data) { return new Response(result.GoodreadsResponse); }
+  async parseShelf(data) { return new Response(data.GoodreadsResponse); }
 
 }
 
