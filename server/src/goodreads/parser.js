@@ -1,3 +1,4 @@
+const { AuthorList } = require('./author-list');
 const { ReviewList } = require('./review-list');
 const { ShelfList } = require('./shelf-list');
 
@@ -7,6 +8,7 @@ class Parser {
 
   async parse(response) {
     switch (response.method) {
+      case 'author_list': return new AuthorList(response.payload);
       case 'review_list': return new ReviewList(response.payload);
       case 'shelf_list': return new ShelfList(response.payload);
       default:

@@ -4,13 +4,19 @@ const { Response } = require('./response');
 const { Parser } = require('./parser');
 
 class GRAPI {
-  constructor() {
+  constructor(options = {}) {
+    this.dumpXML = options.dumpXML;
     this.parser = new Parser();
   }
 
   // API METHODS - https://www.goodreads.com/api
   // https://www.goodreads.com/api/index#auth.user   —   Get id of user who authorized OAuth.
   // https://www.goodreads.com/api/index#author.books   —   Paginate an author's books.
+  async authorBooks(authorId, page = 1) {
+    return this.fetch('author/list.xml', { id: authorId, page: page })
+      .then(response => this.parser.parse(response));
+  }
+
   // https://www.goodreads.com/api/index#author.show   —   Get info about an author by id.
   // https://www.goodreads.com/api/index#author_following.create   —   Follow an author.
   // https://www.goodreads.com/api/index#author_following.destroy   —   Unfollow an author.
@@ -42,6 +48,11 @@ class GRAPI {
   // https://www.goodreads.com/api/index#notifications   —   See the current user's notifications.
   // https://www.goodreads.com/api/index#owned_books.create   —   Add to books owned.
   // https://www.goodreads.com/api/index#owned_books.list   —   List books owned by a user.
+  async ownedBooksList(userId, page = 1) { // TODO OAUTH
+    return this.fetch(`owned_books/user?format=xml`, { id: userId, page: page })
+      .then(response => this.parser.parse(response));
+  }
+
   // https://www.goodreads.com/api/index#owned_books.show   —   Show an owned book.
   // https://www.goodreads.com/api/index#owned_books.update   —   Update an owned book.
   // https://www.goodreads.com/api/index#owned_books.destroy   —   Delete an owned book.
@@ -70,8 +81,8 @@ class GRAPI {
   // https://www.goodreads.com/api/index#shelves.add_to_shelf   —   Add a book to a shelf.
   // https://www.goodreads.com/api/index#shelves.add_books_to_shelves   —   Add books to many shelves.
   // https://www.goodreads.com/api/index#shelves.list   —   Get a user's shelves.
-  async shelfList(userId) {
-    return this.fetch('shelf/list.xml', { user_id: userId, page: 1 })
+  async shelfList(userId, page = 1) {
+    return this.fetch('shelf/list.xml', { user_id: userId, page: page })
       .then(response => this.parser.parse(response));
   }
 
@@ -110,7 +121,9 @@ class GRAPI {
     }
     
     return request(options).then(async (responseXML) => {
-      // console.log('fetched xml: ', responseXML);
+      if (this.dumpXML) {
+        console.log('fetched xml: ', responseXML);
+      }
       return xml2js.parseStringPromise(responseXML /* this.xmlOptions */ )
         .then(result => new Response(result));
     }).catch(err => console.error(err));

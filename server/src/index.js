@@ -1,17 +1,20 @@
 require('dotenv').config();
 const { GRAPI } = require('./goodreads');
 
-const grapi = new GRAPI();
+const grapi = new GRAPI({ dumpXML: false });
 
-async function reviewList() {
-  const thing = await grapi.reviewList(process.env.GOODREADS_USER_ID, 'to-read', 999);
+async function doit() {
+  var thing = undefined;
+  const DREW_HAYES_ID = 7077654;
+  const ANDY_HOPP_ID = 42705;
+  const JA_USER_ID = 93029742;
+
+  thing = await grapi.authorBooks(ANDY_HOPP_ID, 1);
+  // thing = await grapi.reviewList(JA_USER_ID, 'gaming', 999);
+  // thing = await grapi.shelfList(JA_USER_ID, 1);
+  // TODO OAUTH thing = await grapi.ownedBooksList(JA_USER_ID, 1);
+
   console.log(JSON.stringify(thing, null, 1));
 }
 
-async function shelfList() {
-  const thing = await grapi.shelfList(process.env.GOODREADS_USER_ID);
-  console.log(JSON.stringify(thing, null, 1));
-}
-
-reviewList();
-// shelfList();
+doit();
