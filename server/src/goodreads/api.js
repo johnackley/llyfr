@@ -18,6 +18,11 @@ class GRAPI {
   }
 
   // https://www.goodreads.com/api/index#author.show   —   Get info about an author by id.
+  async authorShow(authorId) {
+    return this.fetch('author/show.xml', { id: authorId })
+      .then(response => this.parser.parse(response));
+  }
+
   // https://www.goodreads.com/api/index#author_following.create   —   Follow an author.
   // https://www.goodreads.com/api/index#author_following.destroy   —   Unfollow an author.
   // https://www.goodreads.com/api/index#author_following.show   —   Show author following information.
