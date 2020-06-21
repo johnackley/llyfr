@@ -7,6 +7,8 @@ const { Parser } = require('./parser');
 const { Response } = require('./response');
 const { Review } = require('./review');
 const { Shelf } = require('./shelf');
+const { ShelfList } = require('./shelf-list');
+const { ShelfRef } = require('./shelf-ref');
 const { Work } = require('./work');
 
 module.exports = {
@@ -19,5 +21,7 @@ module.exports = {
   Response,
   Review,
   Shelf,
+  ShelfList,
+  ShelfRef,
   Work
 }

@@ -1,5 +1,6 @@
 const request = require('request-promise');
 const xml2js = require('xml2js');
+const { Response } = require('./response');
 const { Parser } = require('./parser');
 
 class GRAPI {
@@ -55,7 +56,7 @@ class GRAPI {
   // https://www.goodreads.com/api/index#reviews.list   —   Get the books on a members shelf.
   async reviewList(userId, name, perPage = process.env.PER_PAGE) {
     return this.fetch(`review/list/${userId}.xml`, { v: 2, shelf: name, per_page: perPage })
-      .then(result => this.parser.parseShelf(result));
+      .then(response => this.parser.parse(response));
   }
 
   // https://www.goodreads.com/api/index#review.recent_reviews   —   Recent reviews from all members..
@@ -69,7 +70,10 @@ class GRAPI {
   // https://www.goodreads.com/api/index#shelves.add_to_shelf   —   Add a book to a shelf.
   // https://www.goodreads.com/api/index#shelves.add_books_to_shelves   —   Add books to many shelves.
   // https://www.goodreads.com/api/index#shelves.list   —   Get a user's shelves.
-  async shelfList(userId) { return this.fetch('shelf/list.xml', { user_id: userId, page: 1 }); }
+  async shelfList(userId) {
+    return this.fetch('shelf/list.xml', { user_id: userId, page: 1 })
+      .then(response => this.parser.parse(response));
+  }
 
   // https://www.goodreads.com/api/index#topic.create   —   Create a new topic via OAuth.
   // https://www.goodreads.com/api/index#topic.group_folder   —   Get list of topics in a group's folder.
@@ -107,7 +111,8 @@ class GRAPI {
     
     return request(options).then(async (responseXML) => {
       // console.log('fetched xml: ', responseXML);
-      return xml2js.parseStringPromise(responseXML /* this.xmlOptions */ );
+      return xml2js.parseStringPromise(responseXML /* this.xmlOptions */ )
+        .then(result => new Response(result));
     }).catch(err => console.error(err));
   }
 
