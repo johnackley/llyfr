@@ -23,7 +23,11 @@ async function doit(n) {
   return new Promise(function(resolve, reject) { reject('bad option'); });
 }
 
-// for (let i = 1; i < 8; i++) { console.log(JSON.stringify(doit(i), null, 1)); }
-doit( 4 ).then(thing => {
-  if (thing) console.log(JSON.stringify(thing, null, 1));
-});
+for (let i = 1; i < 8; i++) { 
+  doit( i ).then(thing => {
+    if (thing) console.log(JSON.stringify(thing, null, 1));
+  });
+}
+// doit( 4 ).then(thing => {
+//   if (thing) console.log(JSON.stringify(thing, null, 1));
+// });
