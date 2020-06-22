@@ -1,14 +1,14 @@
-const { SeriesWork } = require('./series-work');
+const { Series } = require('../../series');
 
-class SeriesShow {
+class SeriesShowResponse {
   constructor(data) {
-    // console.log('series-show data:', data.series_works[0]);
-    this.series_works = data.series_works[0].series_work.map(x => new SeriesWork(x));
+    // console.log('series-show data:', data.series[0]);
+    this.series = new Series(data.series[0]);
     // console.log('parsed series-show:', this);
   }
 }
 
-module.exports = { SeriesShow };
+module.exports = { SeriesShowResponse };
 
 // id: [ '45935' ],
 // title: [ '\n\n    Dune\n\n' ],

@@ -5,7 +5,7 @@ class Work {
     // console.log('work data:', data.best_book);
     this.id = data.id[0];
     this.uri = data.uri[0];
-    this.best_book = data.best_book[0];
+    this.best_book = new BestBook(data.best_book[0]);
     this.books_count = parseInt(data.books_count[0], 10);
     if (data.original_publication_day[0]) {
       this.original_publication_day = parseInt(data.original_publication_day[0], 10);
@@ -24,7 +24,6 @@ class Work {
     if (data.average_rating[0]) {
       this.average_rating = parseFloat(data.average_rating[0]);
     }
-    this.best_book = new BestBook(data.best_book[0]);
     // console.log('parsed work:', this);
   }
 }

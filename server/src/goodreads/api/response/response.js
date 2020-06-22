@@ -1,7 +1,3 @@
-const { Pagination } = require('./pagination');
-const { ShelfRef } = require('./shelf-ref');
-const { Review } = require('./review');
-
 class Response {
   constructor(data) {
     // console.log('response data:', data);

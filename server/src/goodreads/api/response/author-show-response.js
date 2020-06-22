@@ -1,9 +1,9 @@
-const { ImageURL } = require('./image-url');
-const { Book } = require('./book');
+const { ImageURL } = require('../../image-url');
+const { Book } = require('../../book');
 
-class AuthorShow {
+class AuthorShowResponse {
   constructor(data) {
-    console.log('author data:', data.author[0]);
+    // console.log('author data:', data.author[0]);
     this.id = data.author[0].id[0];
     this.name = data.author[0].name[0];
     this.link = data.author[0].link[0];
@@ -22,10 +22,11 @@ class AuthorShow {
     this.goodreads_author = data.author[0].goodreads_author[0];
     this.userId = data.author[0].user[0].id[0]['_'];
     this.books = data.author[0].books[0].book.map(x => new Book(x));
+    // console.log('parsed author:', this);
   }
 }
 
-module.exports = { AuthorShow };
+module.exports = { AuthorShowResponse };
 
 // <id>42705</id>
 // <name>Andy Hopp</name>

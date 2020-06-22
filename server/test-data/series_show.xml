@@ -1,0 +1,897 @@
+<GoodreadsResponse>
+  <Request>
+    <authentication>true</authentication>
+      <key><![CDATA[aMZDi8wrgVAaHtyOUOCjug]]></key>
+    <method><![CDATA[series_show]]></method>
+  </Request>
+  <series>
+    <id>45935</id>
+    <title> <![CDATA[ Dune ]]> </title>
+    <description> <![CDATA[
+          Also known as Dune Saga, Kroniki Diuny and Dyyni.
+          
+          • <a href="/series/49401-prelude-to-dune">Prelude to Dune</a>
+          • <a href="/series/45567-legends-of-dune">Legends of Dune</a>
+          • <a href="/series/49402-heroes-of-dune">Heroes of Dune</a>
+          • <a href="/series/104537-schools-of-dune">Schools of Dune</a>
+      ]]> </description>
+    <note> <![CDATA[ ]]> </note>
+    <series_works_count>31</series_works_count>
+    <primary_work_count>8</primary_work_count>
+    <numbered>true</numbered>
+    <series_works>
+      <series_work>
+        <id>166801</id>
+        <user_position>1</user_position>
+        <work>
+          <id>3634639</id>
+          <uri>kca://work/amzn1.gr.work.v1.dzn2KcfMTbv4_Y7J--YkzQ</uri>
+          <best_book>
+            <id>44767458</id>
+            <title>Dune (Dune, #1)</title>
+            <author>
+              <id>58</id>
+              <name>Frank Herbert</name>
+            </author>
+            <image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555447414l/44767458._SX98_.jpg]]></image_url>
+          </best_book>
+          <books_count>344</books_count>
+          <original_publication_day>1</original_publication_day>
+          <original_publication_month>6</original_publication_month>
+          <original_publication_year>1965</original_publication_year>
+          <original_title>Dune</original_title>
+          <ratings_count>712807</ratings_count>
+          <ratings_sum>3013611</ratings_sum>
+          <reviews_count>1268412</reviews_count>
+          <text_reviews_count>20594</text_reviews_count>
+          <average_rating></average_rating>
+        </work>
+      </series_work>
+
+      <series_work>
+        <id>166797</id>
+        <user_position>2</user_position>
+        <work>
+          <id>3634570</id>
+          <uri>kca://work/amzn1.gr.work.v1.wWcZsZIZuKuobhUu2eYM_Q</uri>
+          <best_book>
+            <id>44492285</id>
+            <title>Dune Messiah (Dune Chronicles, #2)</title>
+            <author>
+              <id>58</id>
+              <name>Frank Herbert</name>
+            </author>
+            <image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1577043824l/44492285._SY160_.jpg]]></image_url>
+          </best_book>
+          <books_count>24</books_count>
+          <original_publication_day></original_publication_day>
+          <original_publication_month>10</original_publication_month>
+          <original_publication_year>1969</original_publication_year>
+          <original_title>Dune Messiah </original_title>
+          <ratings_count>124221</ratings_count>
+          <ratings_sum>482701</ratings_sum>
+          <reviews_count>184810</reviews_count>
+          <text_reviews_count>3670</text_reviews_count>
+          <average_rating></average_rating>
+        </work>
+      </series_work>
+
+      <series_work>
+        <id>166798</id>
+        <user_position>3</user_position>
+        <work>
+          <id>3634573</id>
+          <uri>kca://work/amzn1.gr.work.v1.5b2QcO9hfAIGpIRr3Jw9JA</uri>
+          <best_book>
+            <id>44492286</id>
+            <title>Children of Dune (Dune Chronicles, #3)</title>
+            <author>
+              <id>58</id>
+              <name>Frank Herbert</name>
+            </author>
+            <image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564783201l/44492286._SY160_.jpg]]></image_url>
+          </best_book>
+          <books_count>149</books_count>
+          <original_publication_day>21</original_publication_day>
+          <original_publication_month>4</original_publication_month>
+          <original_publication_year>1976</original_publication_year>
+          <original_title>Children of Dune</original_title>
+          <ratings_count>101753</ratings_count>
+          <ratings_sum>400139</ratings_sum>
+          <reviews_count>153416</reviews_count>
+          <text_reviews_count>2120</text_reviews_count>
+          <average_rating></average_rating>
+        </work>
+      </series_work>
+
+      <series_work>
+      <id>166800</id>
+      <user_position>4</user_position>
+      <work>
+      <id>3634588</id>
+      <uri>kca://work/amzn1.gr.work.v1.HXR3ucwuB1s0pOVtM1-w2g</uri>
+      <best_book>
+      <id>44439415</id>
+      <title>God Emperor of Dune (Dune Chronicles, #4)</title>
+      <author>
+      <id>58</id>
+      <name>Frank Herbert</name>
+      </author>
+      <image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564025916l/44439415._SY160_.jpg]]></image_url>
+      </best_book>
+      <books_count>122</books_count>
+      <original_publication_day>6</original_publication_day>
+      <original_publication_month>5</original_publication_month>
+      <original_publication_year>1981</original_publication_year>
+      <original_title>God Emperor of Dune</original_title>
+      <ratings_count>64553</ratings_count>
+      <ratings_sum>248547</ratings_sum>
+      <reviews_count>100372</reviews_count>
+      <text_reviews_count>1543</text_reviews_count>
+      <average_rating></average_rating>
+      </work>
+
+      </series_work>
+      <series_work>
+      <id>166799</id>
+      <user_position>5</user_position>
+      <work>
+      <id>3634575</id>
+      <uri>kca://work/amzn1.gr.work.v1.rgmh3khVFrB5ZvRuEMjSnA</uri>
+      <best_book>
+      <id>44492287</id>
+      <title>Heretics of Dune (Dune Chronicles, #5)</title>
+      <author>
+      <id>58</id>
+      <name>Frank Herbert</name>
+      </author>
+      <image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564027750l/44492287._SY160_.jpg]]></image_url>
+      </best_book>
+      <books_count>105</books_count>
+      <original_publication_day>1</original_publication_day>
+      <original_publication_month>4</original_publication_month>
+      <original_publication_year>1984</original_publication_year>
+      <original_title>Heretics of Dune</original_title>
+      <ratings_count>52661</ratings_count>
+      <ratings_sum>203424</ratings_sum>
+      <reviews_count>84601</reviews_count>
+      <text_reviews_count>923</text_reviews_count>
+      <average_rating></average_rating>
+      </work>
+
+      </series_work>
+      <series_work>
+      <id>166796</id>
+      <user_position>6</user_position>
+      <work>
+      <id>3634569</id>
+      <uri>kca://work/amzn1.gr.work.v1.Okjy00-1l1NJFKKBLLqBdQ</uri>
+      <best_book>
+      <id>44439416</id>
+      <title>Chapterhouse: Dune (Dune Chronicles, #6)</title>
+      <author>
+      <id>58</id>
+      <name>Frank Herbert</name>
+      </author>
+      <image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564029233l/44439416._SY160_.jpg]]></image_url>
+      </best_book>
+      <books_count>88</books_count>
+      <original_publication_day></original_publication_day>
+      <original_publication_month>4</original_publication_month>
+      <original_publication_year>1985</original_publication_year>
+      <original_title>Chapterhouse: Dune</original_title>
+      <ratings_count>44756</ratings_count>
+      <ratings_sum>174946</ratings_sum>
+      <reviews_count>74304</reviews_count>
+      <text_reviews_count>812</text_reviews_count>
+      <average_rating></average_rating>
+      </work>
+
+      </series_work>
+      <series_work>
+      <id>181510</id>
+      <user_position>7</user_position>
+      <work>
+      <id>4911</id>
+      <uri>kca://work/amzn1.gr.work.v1.5nz-xP7zcdJg72S1j-CGBQ</uri>
+      <best_book>
+      <id>20249</id>
+      <title>Hunters of Dune (Dune Chronicles, #7)</title>
+      <author>
+      <id>56</id>
+      <name>Brian Herbert</name>
+      </author>
+      <image_url><![CDATA[https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png]]></image_url>
+      </best_book>
+      <books_count>33</books_count>
+      <original_publication_day></original_publication_day>
+      <original_publication_month>4</original_publication_month>
+      <original_publication_year>2006</original_publication_year>
+      <original_title>Hunters of Dune</original_title>
+      <ratings_count>12378</ratings_count>
+      <ratings_sum>45204</ratings_sum>
+      <reviews_count>24274</reviews_count>
+      <text_reviews_count>367</text_reviews_count>
+      <average_rating></average_rating>
+      </work>
+
+      </series_work>
+      <series_work>
+      <id>181511</id>
+      <user_position>8</user_position>
+      <work>
+      <id>41917</id>
+      <uri>kca://work/amzn1.gr.work.v1.KkeGcCt58xcgHAUoqA5Pqw</uri>
+      <best_book>
+      <id>42434</id>
+      <title>Sandworms of Dune (Dune Chronicles #8)</title>
+      <author>
+      <id>56</id>
+      <name>Brian Herbert</name>
+      </author>
+      <image_url><![CDATA[https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png]]></image_url>
+      </best_book>
+      <books_count>32</books_count>
+      <original_publication_day></original_publication_day>
+      <original_publication_month></original_publication_month>
+      <original_publication_year>2007</original_publication_year>
+      <original_title>Sandworms of Dune</original_title>
+      <ratings_count>10309</ratings_count>
+      <ratings_sum>37513</ratings_sum>
+      <reviews_count>21550</reviews_count>
+      <text_reviews_count>378</text_reviews_count>
+      <average_rating></average_rating>
+      </work>
+
+      </series_work>
+      <series_work>
+      <id>181512</id>
+      <user_position></user_position>
+      <work>
+      <id>4472</id>
+      <uri>kca://work/amzn1.gr.work.v1.LWv0r6vvNE0Vxx2CQuA_sg</uri>
+      <best_book>
+      <id>110</id>
+      <title>The Road to Dune</title>
+      <author>
+      <id>58</id>
+      <name>Frank Herbert</name>
+      </author>
+      <image_url><![CDATA[https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png]]></image_url>
+      </best_book>
+      <books_count>23</books_count>
+      <original_publication_day>1</original_publication_day>
+      <original_publication_month>1</original_publication_month>
+      <original_publication_year>2005</original_publication_year>
+      <original_title>The Road to Dune</original_title>
+      <ratings_count>5188</ratings_count>
+      <ratings_sum>20148</ratings_sum>
+      <reviews_count>9622</reviews_count>
+      <text_reviews_count>117</text_reviews_count>
+      <average_rating></average_rating>
+      </work>
+
+      </series_work>
+      <series_work>
+      <id>243369</id>
+      <user_position></user_position>
+      <work>
+      <id>1754002</id>
+      <uri>kca://work/amzn1.gr.work.v1.H8_TUxxdUEqO5f1I1tkcTQ</uri>
+      <best_book>
+      <id>1756140</id>
+      <title>The Truths of Dune: Fear is the Mind Killer</title>
+      <author>
+      <id>58</id>
+      <name>Frank Herbert</name>
+      </author>
+      <image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1261079738l/1756140._SX98_.jpg]]></image_url>
+      </best_book>
+      <books_count>1</books_count>
+      <original_publication_day></original_publication_day>
+      <original_publication_month>12</original_publication_month>
+      <original_publication_year>1984</original_publication_year>
+      <original_title>Truths of Dune</original_title>
+      <ratings_count>28</ratings_count>
+      <ratings_sum>105</ratings_sum>
+      <reviews_count>359</reviews_count>
+      <text_reviews_count>0</text_reviews_count>
+      <average_rating></average_rating>
+      </work>
+
+      </series_work>
+      <series_work>
+      <id>243367</id>
+      <user_position></user_position>
+      <work>
+      <id>4478</id>
+      <uri>kca://work/amzn1.gr.work.v1.x5BAQu5-uUgRQ7HJB5OU0g</uri>
+      <best_book>
+      <id>118</id>
+      <title>The Battles of Dune</title>
+      <author>
+      <id>9882336</id>
+      <name>Felix  Salten</name>
+      </author>
+      <image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1417079985l/118._SY160_.jpg]]></image_url>
+      </best_book>
+      <books_count>1</books_count>
+      <original_publication_day>4</original_publication_day>
+      <original_publication_month>1</original_publication_month>
+      <original_publication_year>1994</original_publication_year>
+      <original_title>Battles of Dune</original_title>
+      <ratings_count>445</ratings_count>
+      <ratings_sum>1862</ratings_sum>
+      <reviews_count>998</reviews_count>
+      <text_reviews_count>0</text_reviews_count>
+      <average_rating></average_rating>
+      </work>
+
+      </series_work>
+      <series_work>
+      <id>775225</id>
+      <user_position></user_position>
+      <work>
+      <id>1009000</id>
+      <uri>kca://work/amzn1.gr.work.v1.vV1dbSlIr3inmKHr2_ULVw</uri>
+      <best_book>
+      <id>870294</id>
+      <title>The Dune Encyclopedia</title>
+      <author>
+      <id>1663914</id>
+      <name>Willis Everett McNelly</name>
+      </author>
+      <image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1317761885l/870294._SX98_.jpg]]></image_url>
+      </best_book>
+      <books_count>9</books_count>
+      <original_publication_day></original_publication_day>
+      <original_publication_month>6</original_publication_month>
+      <original_publication_year>1984</original_publication_year>
+      <original_title>The Dune Encyclopedia: The Complete, Authorized Guide and Companion to Frank Herbert's Masterpiece of the Imagination</original_title>
+      <ratings_count>4039</ratings_count>
+      <ratings_sum>16551</ratings_sum>
+      <reviews_count>6198</reviews_count>
+      <text_reviews_count>52</text_reviews_count>
+      <average_rating></average_rating>
+      </work>
+
+      </series_work>
+      <series_work>
+      <id>599167</id>
+      <user_position>1-2</user_position>
+      <work>
+      <id>19123970</id>
+      <uri>kca://work/amzn1.gr.work.v1.vuE8PGXZOsBVz9k3aq6GOg</uri>
+      <best_book>
+      <id>13554245</id>
+      <title>Дюн. Месията на Дюн (Дюн, #1-2)</title>
+      <author>
+      <id>58</id>
+      <name>Frank Herbert</name>
+      </author>
+      <image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1332267970l/13554245._SX98_.jpg]]></image_url>
+      </best_book>
+      <books_count>6</books_count>
+      <original_publication_day></original_publication_day>
+      <original_publication_month></original_publication_month>
+      <original_publication_year>1965</original_publication_year>
+      <original_title></original_title>
+      <ratings_count>177</ratings_count>
+      <ratings_sum>804</ratings_sum>
+      <reviews_count>415</reviews_count>
+      <text_reviews_count>8</text_reviews_count>
+      <average_rating></average_rating>
+      </work>
+
+      </series_work>
+      <series_work>
+      <id>219147</id>
+      <user_position>1-3</user_position>
+      <work>
+      <id>551</id>
+      <uri>kca://work/amzn1.gr.work.v1.Je5HrIVpqgwclCGnKHTS8Q</uri>
+      <best_book>
+      <id>53764</id>
+      <title>The Great Dune Trilogy</title>
+      <author>
+      <id>58</id>
+      <name>Frank Herbert</name>
+      </author>
+      <image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1419962914l/53764._SX98_.jpg]]></image_url>
+      </best_book>
+      <books_count>27</books_count>
+      <original_publication_day></original_publication_day>
+      <original_publication_month>4</original_publication_month>
+      <original_publication_year>1979</original_publication_year>
+      <original_title>The Great Dune Trilogy</original_title>
+      <ratings_count>56116</ratings_count>
+      <ratings_sum>244815</ratings_sum>
+      <reviews_count>73309</reviews_count>
+      <text_reviews_count>233</text_reviews_count>
+      <average_rating></average_rating>
+      </work>
+
+      </series_work>
+      <series_work>
+      <id>599163</id>
+      <user_position>1-5</user_position>
+      <work>
+      <id>3323285</id>
+      <uri>kca://work/amzn1.gr.work.v1.BvKaUCc1H7VwZK2Mka-caA</uri>
+      <best_book>
+      <id>3286926</id>
+      <title>Dune Collection, 5 Vols.</title>
+      <author>
+      <id>58</id>
+      <name>Frank Herbert</name>
+      </author>
+      <image_url><![CDATA[https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png]]></image_url>
+      </best_book>
+      <books_count>3</books_count>
+      <original_publication_day>1</original_publication_day>
+      <original_publication_month>4</original_publication_month>
+      <original_publication_year>1982</original_publication_year>
+      <original_title>Dune Collection, 5 Vols</original_title>
+      <ratings_count>33</ratings_count>
+      <ratings_sum>155</ratings_sum>
+      <reviews_count>114</reviews_count>
+      <text_reviews_count>1</text_reviews_count>
+      <average_rating></average_rating>
+      </work>
+
+      </series_work>
+      <series_work>
+      <id>506340</id>
+      <user_position>1-6</user_position>
+      <work>
+      <id>25156322</id>
+      <uri>kca://work/amzn1.gr.work.v1.nMWL6-1Tfv_lcxs-25Y9dA</uri>
+      <best_book>
+      <id>19046482</id>
+      <title>Dune: The Gateway Collection (Dune Chronicles #1-6)</title>
+      <author>
+      <id>58</id>
+      <name>Frank Herbert</name>
+      </author>
+      <image_url><![CDATA[https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png]]></image_url>
+      </best_book>
+      <books_count>7</books_count>
+      <original_publication_day>1</original_publication_day>
+      <original_publication_month>11</original_publication_month>
+      <original_publication_year>2012</original_publication_year>
+      <original_title>Dune Chronicles</original_title>
+      <ratings_count>437</ratings_count>
+      <ratings_sum>1874</ratings_sum>
+      <reviews_count>1653</reviews_count>
+      <text_reviews_count>19</text_reviews_count>
+      <average_rating></average_rating>
+      </work>
+
+      </series_work>
+      <series_work>
+      <id>243366</id>
+      <user_position>2-3</user_position>
+      <work>
+      <id>52436</id>
+      <uri>kca://work/amzn1.gr.work.v1.f0Efkx5CNLq1E2OXJRx6ww</uri>
+      <best_book>
+      <id>53770</id>
+      <title>Dune Messiah &amp; Children Of Dune</title>
+      <author>
+      <id>58</id>
+      <name>Frank Herbert</name>
+      </author>
+      <image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328326826l/53770._SX98_.jpg]]></image_url>
+      </best_book>
+      <books_count>5</books_count>
+      <original_publication_day></original_publication_day>
+      <original_publication_month></original_publication_month>
+      <original_publication_year>1979</original_publication_year>
+      <original_title>Dune Messiah &amp; Children of Dune (Dune Chronicles)</original_title>
+      <ratings_count>1365</ratings_count>
+      <ratings_sum>5817</ratings_sum>
+      <reviews_count>2173</reviews_count>
+      <text_reviews_count>26</text_reviews_count>
+      <average_rating></average_rating>
+      </work>
+
+      </series_work>
+      <series_work>
+      <id>599161</id>
+      <user_position>3-4</user_position>
+      <work>
+      <id>20390679</id>
+      <uri>kca://work/amzn1.gr.work.v1.g8VEhZK2Yx8JUfgQKNZ8zg</uri>
+      <best_book>
+      <id>14742937</id>
+      <title>Децата на Дюн. Бог-император на Дюн (Дюн, #3-4)</title>
+      <author>
+      <id>58</id>
+      <name>Frank Herbert</name>
+      </author>
+      <image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1338478250l/14742937._SX98_.jpg]]></image_url>
+      </best_book>
+      <books_count>2</books_count>
+      <original_publication_day>1</original_publication_day>
+      <original_publication_month>1</original_publication_month>
+      <original_publication_year>2004</original_publication_year>
+      <original_title></original_title>
+      <ratings_count>67</ratings_count>
+      <ratings_sum>287</ratings_sum>
+      <reviews_count>147</reviews_count>
+      <text_reviews_count>2</text_reviews_count>
+      <average_rating></average_rating>
+      </work>
+
+      </series_work>
+      <series_work>
+      <id>219148</id>
+      <user_position>4-6</user_position>
+      <work>
+      <id>52433</id>
+      <uri>kca://work/amzn1.gr.work.v1.11cCUcFYpBTOjZI6N0IVow</uri>
+      <best_book>
+      <id>53766</id>
+      <title>The Second Great Dune Trilogy: God Emperor of Dune/Heretics of Dune/Chapter House Dune</title>
+      <author>
+      <id>58</id>
+      <name>Frank Herbert</name>
+      </author>
+      <image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1352159926l/53766._SX98_.jpg]]></image_url>
+      </best_book>
+      <books_count>4</books_count>
+      <original_publication_day>1</original_publication_day>
+      <original_publication_month>10</original_publication_month>
+      <original_publication_year>1981</original_publication_year>
+      <original_title>The Second Great Dune Trilogy: God Emperor of Dune, Heretics of Dune and Chapter House Dune</original_title>
+      <ratings_count>399</ratings_count>
+      <ratings_sum>1749</ratings_sum>
+      <reviews_count>751</reviews_count>
+      <text_reviews_count>6</text_reviews_count>
+      <average_rating></average_rating>
+      </work>
+
+      </series_work>
+      <series_work>
+      <id>775229</id>
+      <user_position>5-6</user_position>
+      <work>
+      <id>43741710</id>
+      <uri>kca://work/amzn1.gr.work.v1.4u1Bt-76HqsZbPJH8Zt00w</uri>
+      <best_book>
+      <id>24151856</id>
+      <title>Еретиците на Дюн. Домът на Ордена (Дюн, #5-6)</title>
+      <author>
+      <id>58</id>
+      <name>Frank Herbert</name>
+      </author>
+      <image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1419794106l/24151856._SX98_.jpg]]></image_url>
+      </best_book>
+      <books_count>1</books_count>
+      <original_publication_day>1</original_publication_day>
+      <original_publication_month>1</original_publication_month>
+      <original_publication_year>2004</original_publication_year>
+      <original_title></original_title>
+      <ratings_count>29</ratings_count>
+      <ratings_sum>127</ratings_sum>
+      <reviews_count>101</reviews_count>
+      <text_reviews_count>0</text_reviews_count>
+      <average_rating></average_rating>
+      </work>
+
+      </series_work>
+      <series_work>
+      <id>887274</id>
+      <user_position>1, part 1 of 2</user_position>
+      <work>
+      <id>49578285</id>
+      <uri>kca://work/amzn1.gr.work.v1._HyaZCWeDYSAYNDDxv_NJQ</uri>
+      <best_book>
+      <id>1393631</id>
+      <title>Dune I</title>
+      <author>
+      <id>58</id>
+      <name>Frank Herbert</name>
+      </author>
+      <image_url><![CDATA[https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png]]></image_url>
+      </best_book>
+      <books_count>20</books_count>
+      <original_publication_day>1</original_publication_day>
+      <original_publication_month>8</original_publication_month>
+      <original_publication_year>1965</original_publication_year>
+      <original_title>Dune</original_title>
+      <ratings_count>1174</ratings_count>
+      <ratings_sum>5222</ratings_sum>
+      <reviews_count>1833</reviews_count>
+      <text_reviews_count>41</text_reviews_count>
+      <average_rating></average_rating>
+      </work>
+
+      </series_work>
+      <series_work>
+      <id>585925</id>
+      <user_position>1, part 2 of 2</user_position>
+      <work>
+      <id>18452357</id>
+      <uri>kca://work/amzn1.gr.work.v1.Rmqcj8WgumI9LiwZCG5Y5w</uri>
+      <best_book>
+      <id>1393633</id>
+      <title>Dune 2</title>
+      <author>
+      <id>58</id>
+      <name>Frank Herbert</name>
+      </author>
+      <image_url><![CDATA[https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png]]></image_url>
+      </best_book>
+      <books_count>17</books_count>
+      <original_publication_day>1</original_publication_day>
+      <original_publication_month>8</original_publication_month>
+      <original_publication_year>1965</original_publication_year>
+      <original_title>Dune</original_title>
+      <ratings_count>855</ratings_count>
+      <ratings_sum>3729</ratings_sum>
+      <reviews_count>1542</reviews_count>
+      <text_reviews_count>28</text_reviews_count>
+      <average_rating></average_rating>
+      </work>
+
+      </series_work>
+      <series_work>
+      <id>617787</id>
+      <user_position>1, part 1 of 3</user_position>
+      <work>
+      <id>21819432</id>
+      <uri>kca://work/amzn1.gr.work.v1.jCickRmTZb97QwzptkeeQg</uri>
+      <best_book>
+      <id>3414308</id>
+      <title>Dyyni: Ensimmäinen osa (Dyyni #1, part 1 of 3)</title>
+      <author>
+      <id>58</id>
+      <name>Frank Herbert</name>
+      </author>
+      <image_url><![CDATA[https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png]]></image_url>
+      </best_book>
+      <books_count>4</books_count>
+      <original_publication_day></original_publication_day>
+      <original_publication_month></original_publication_month>
+      <original_publication_year>1965</original_publication_year>
+      <original_title>Dune, part 1 of 3</original_title>
+      <ratings_count>208</ratings_count>
+      <ratings_sum>816</ratings_sum>
+      <reviews_count>397</reviews_count>
+      <text_reviews_count>10</text_reviews_count>
+      <average_rating></average_rating>
+      </work>
+
+      </series_work>
+      <series_work>
+      <id>617788</id>
+      <user_position>1, part 2 of 3</user_position>
+      <work>
+      <id>21819437</id>
+      <uri>kca://work/amzn1.gr.work.v1.17WaSRZ-BCIGE-BdZlUHow</uri>
+      <best_book>
+      <id>3414314</id>
+      <title>Dyyni: Toinen osa (Dyyni #1, part 2 of 3)</title>
+      <author>
+      <id>58</id>
+      <name>Frank Herbert</name>
+      </author>
+      <image_url><![CDATA[https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png]]></image_url>
+      </best_book>
+      <books_count>6</books_count>
+      <original_publication_day></original_publication_day>
+      <original_publication_month></original_publication_month>
+      <original_publication_year>1965</original_publication_year>
+      <original_title>Dune, part 2 of 3</original_title>
+      <ratings_count>189</ratings_count>
+      <ratings_sum>758</ratings_sum>
+      <reviews_count>301</reviews_count>
+      <text_reviews_count>5</text_reviews_count>
+      <average_rating></average_rating>
+      </work>
+
+      </series_work>
+      <series_work>
+      <id>617789</id>
+      <user_position>1, part 3 of 3</user_position>
+      <work>
+      <id>21819425</id>
+      <uri>kca://work/amzn1.gr.work.v1.bb3z_bNA9H0lrTqY64cMZg</uri>
+      <best_book>
+      <id>3414322</id>
+      <title>Dyyni: Kolmas osa (Dyyni #1, part 3 of 3)</title>
+      <author>
+      <id>58</id>
+      <name>Frank Herbert</name>
+      </author>
+      <image_url><![CDATA[https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png]]></image_url>
+      </best_book>
+      <books_count>5</books_count>
+      <original_publication_day></original_publication_day>
+      <original_publication_month></original_publication_month>
+      <original_publication_year>1965</original_publication_year>
+      <original_title>Dune part 3 of 3</original_title>
+      <ratings_count>157</ratings_count>
+      <ratings_sum>611</ratings_sum>
+      <reviews_count>248</reviews_count>
+      <text_reviews_count>6</text_reviews_count>
+      <average_rating></average_rating>
+      </work>
+
+      </series_work>
+      <series_work>
+      <id>776286</id>
+      <user_position>2, part 1 of 2</user_position>
+      <work>
+      <id>45364414</id>
+      <uri>kca://work/amzn1.gr.work.v1.yWfd-AQMNDJQx1ugi7FZ7w</uri>
+      <best_book>
+      <id>13602198</id>
+      <title>Месията на Дюна - част 1 (Dune Chronicles, #2)</title>
+      <author>
+      <id>58</id>
+      <name>Frank Herbert</name>
+      </author>
+      <image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1334441689l/13602198._SX98_.jpg]]></image_url>
+      </best_book>
+      <books_count>1</books_count>
+      <original_publication_day></original_publication_day>
+      <original_publication_month></original_publication_month>
+      <original_publication_year></original_publication_year>
+      <original_title></original_title>
+      <ratings_count>14</ratings_count>
+      <ratings_sum>54</ratings_sum>
+      <reviews_count>31</reviews_count>
+      <text_reviews_count>0</text_reviews_count>
+      <average_rating></average_rating>
+      </work>
+
+      </series_work>
+      <series_work>
+      <id>776288</id>
+      <user_position>2, part 2 of 2</user_position>
+      <work>
+      <id>45364486</id>
+      <uri>kca://work/amzn1.gr.work.v1.6M1rYLunn0F0jImMViqchQ</uri>
+      <best_book>
+      <id>25566137</id>
+      <title>Месията на Дюна - част 2 (Dune Chronicles, #2, part 2 of 2)</title>
+      <author>
+      <id>58</id>
+      <name>Frank Herbert</name>
+      </author>
+      <image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1432067009l/25566137._SX98_.jpg]]></image_url>
+      </best_book>
+      <books_count>1</books_count>
+      <original_publication_day>1</original_publication_day>
+      <original_publication_month>1</original_publication_month>
+      <original_publication_year>1992</original_publication_year>
+      <original_title>Dune Chronicles, #2, part 2 of 2</original_title>
+      <ratings_count>7</ratings_count>
+      <ratings_sum>27</ratings_sum>
+      <reviews_count>25</reviews_count>
+      <text_reviews_count>0</text_reviews_count>
+      <average_rating></average_rating>
+      </work>
+
+      </series_work>
+      <series_work>
+      <id>775237</id>
+      <user_position>3, part 1 of 2</user_position>
+      <work>
+      <id>45349957</id>
+      <uri>kca://work/amzn1.gr.work.v1.EiLuxaJ31AsDZ9F8NS7sSg</uri>
+      <best_book>
+      <id>13604071</id>
+      <title>Децата на Дюн 1 (Dune Chronicles, #3)</title>
+      <author>
+      <id>58</id>
+      <name>Frank Herbert</name>
+      </author>
+      <image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1334562627l/13604071._SX98_.jpg]]></image_url>
+      </best_book>
+      <books_count>1</books_count>
+      <original_publication_day>1</original_publication_day>
+      <original_publication_month>1</original_publication_month>
+      <original_publication_year>1995</original_publication_year>
+      <original_title>Children of Dune, part 1 of 2</original_title>
+      <ratings_count>16</ratings_count>
+      <ratings_sum>71</ratings_sum>
+      <reviews_count>40</reviews_count>
+      <text_reviews_count>1</text_reviews_count>
+      <average_rating></average_rating>
+      </work>
+
+      </series_work>
+      <series_work>
+      <id>775238</id>
+      <user_position>3, part 2 of 2</user_position>
+      <work>
+      <id>41253156</id>
+      <uri>kca://work/amzn1.gr.work.v1.2iVHm5ZR9NmMkQzE4p4ZPA</uri>
+      <best_book>
+      <id>21947979</id>
+      <title>Deca Arakisa II (Peščana planeta #6)</title>
+      <author>
+      <id>58</id>
+      <name>Frank Herbert</name>
+      </author>
+      <image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1397845999l/21947979._SY160_.jpg]]></image_url>
+      </best_book>
+      <books_count>2</books_count>
+      <original_publication_day></original_publication_day>
+      <original_publication_month></original_publication_month>
+      <original_publication_year>1976</original_publication_year>
+      <original_title>Children of Dune II</original_title>
+      <ratings_count>15</ratings_count>
+      <ratings_sum>62</ratings_sum>
+      <reviews_count>36</reviews_count>
+      <text_reviews_count>1</text_reviews_count>
+      <average_rating></average_rating>
+      </work>
+
+      </series_work>
+      <series_work>
+      <id>775232</id>
+      <user_position>4, part 1 of 2</user_position>
+      <work>
+      <id>45348446</id>
+      <uri>kca://work/amzn1.gr.work.v1.2dEhtYbPKNmcuOOnNjgNbg</uri>
+      <best_book>
+      <id>25553514</id>
+      <title>Бог-император на Дюна (Dune Chronicles, #4, part 1 of 2)</title>
+      <author>
+      <id>58</id>
+      <name>Frank Herbert</name>
+      </author>
+      <image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431870946l/25553514._SX98_.jpg]]></image_url>
+      </best_book>
+      <books_count>1</books_count>
+      <original_publication_day>1</original_publication_day>
+      <original_publication_month>1</original_publication_month>
+      <original_publication_year>1996</original_publication_year>
+      <original_title> God Emperor of Dune </original_title>
+      <ratings_count>4</ratings_count>
+      <ratings_sum>17</ratings_sum>
+      <reviews_count>14</reviews_count>
+      <text_reviews_count>0</text_reviews_count>
+      <average_rating></average_rating>
+      </work>
+
+      </series_work>
+      <series_work>
+      <id>775233</id>
+      <user_position>4, part 2 of 2</user_position>
+      <work>
+      <id>45348460</id>
+      <uri>kca://work/amzn1.gr.work.v1.tXwA1wt97D83F-frQhxNSA</uri>
+      <best_book>
+      <id>25553521</id>
+      <title>Бог-император на Дюна (Dune Chronicles, #4, part 2 of 2)</title>
+      <author>
+      <id>58</id>
+      <name>Frank Herbert</name>
+      </author>
+      <image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431871068l/25553521._SX98_.jpg]]></image_url>
+      </best_book>
+      <books_count>1</books_count>
+      <original_publication_day>1</original_publication_day>
+      <original_publication_month>1</original_publication_month>
+      <original_publication_year>1996</original_publication_year>
+      <original_title>God Emperor of Dune</original_title>
+      <ratings_count>3</ratings_count>
+      <ratings_sum>14</ratings_sum>
+      <reviews_count>14</reviews_count>
+      <text_reviews_count>0</text_reviews_count>
+      <average_rating></average_rating>
+      </work>
+
+      </series_work>
+
+      </series_works>
+      </series>
+
+
+      </GoodreadsResponse>
+

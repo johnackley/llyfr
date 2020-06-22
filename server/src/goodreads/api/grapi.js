@@ -1,11 +1,11 @@
 const request = require('request-promise');
 const xml2js = require('xml2js');
-const { Response } = require('./response');
+const { Response } = require('./response/response');
 const { Parser } = require('./parser');
 
 class GRAPI {
   constructor(options = {}) {
-    this.dumpXML = options.dumpXML;
+    this.options = options;
     this.parser = new Parser();
   }
 
@@ -93,6 +93,11 @@ class GRAPI {
   }
 
   // https://www.goodreads.com/api/index#series.work   —   See all series a work is in.
+  async seriesWork(workId) { // series/list?format=xml&id=AUTHOR_ID 
+    return this.fetch(`series/work/${workId}?format=xml`, {})
+      .then(response => this.parser.parse(response));
+  }
+
   // https://www.goodreads.com/api/index#shelves.add_to_shelf   —   Add a book to a shelf.
   // https://www.goodreads.com/api/index#shelves.add_books_to_shelves   —   Add books to many shelves.
   // https://www.goodreads.com/api/index#shelves.list   —   Get a user's shelves.
@@ -136,8 +141,11 @@ class GRAPI {
     }
     
     return request(options).then(async (responseXML) => {
-      if (this.dumpXML) {
+      if (this.options.dumpXML) {
         console.log('fetched xml: ', responseXML);
+      }
+      if (this.options.noparse) {
+        return new Promise(function(resolve, reject) { resolve({}); });
       }
       return xml2js.parseStringPromise(responseXML /* this.xmlOptions */ )
         .then(result => new Response(result));
@@ -146,4 +154,6 @@ class GRAPI {
 
 }
 
-module.exports = { GRAPI };
+module.exports = {
+  GRAPI,
+};

@@ -1,7 +1,7 @@
 const { Pagination } = require('./pagination');
-const { UserShelf } = require('./user-shelf');
+const { UserShelf } = require('../../user-shelf');
 
-class ShelfList {
+class ShelfListResponse {
   constructor(data) {
     // console.log('shelf-ref data:', data);
     this.pagination = new Pagination(data.shelves[0]['$']);
@@ -9,5 +9,5 @@ class ShelfList {
   }
 }
 
-module.exports = { ShelfList };
+module.exports = { ShelfListResponse };
 
