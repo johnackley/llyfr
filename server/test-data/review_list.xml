@@ -1,0 +1,793 @@
+<GoodreadsResponse>
+  <Request>
+    <authentication>true</authentication>
+      <key><![CDATA[aMZDi8wrgVAaHtyOUOCjug]]></key>
+    <method><![CDATA[review_list]]></method>
+  </Request>
+  
+  <shelf exclusive='false' id='302553168' name='gaming' sortable='false'></shelf>
+
+<reviews start="1" end="10" total="10">
+    <review>
+  <id>2979206526</id>
+    <book>
+  <id type="integer">52817174</id>
+  <isbn>1950082008</isbn>
+  <isbn13>9781950082001</isbn13>
+  <text_reviews_count type="integer">10</text_reviews_count>
+  <uri>kca://book/amzn1.gr.book.v3.7o6btfdvfbXIvTp9</uri>
+  <title>Savage Worlds: Adventure Edition</title>
+  <title_without_series>Savage Worlds: Adventure Edition</title_without_series>
+  <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+  <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+  <large_image_url/>
+  <link>https://www.goodreads.com/book/show/52817174-savage-worlds</link>
+  <num_pages></num_pages>
+  <format></format>
+  <edition_information>1st</edition_information>
+  <publisher></publisher>
+  <publication_day></publication_day>
+  <publication_year></publication_year>
+  <publication_month></publication_month>
+  <average_rating>4.45</average_rating>
+  <ratings_count>38</ratings_count>
+  <description>The Savage Worlds Adventure Edition takes you anywhere you want to go, From the Weird Wild West of Deadlands to the crime-ridden streets of Necessary Evil. From the curious campus of East Texas University to the distant, untamed worlds of The Last Parsec.&lt;br /&gt;&lt;br /&gt;Or forge your own worlds, fully customized with setting specific rules to help you model everything from pulp adventure to sword and sorcery to hard science fiction and everything in between.</description>
+<authors>
+<author>
+<id>52982</id>
+<name>Shane Lacy Hensley</name>
+<role></role>
+<image_url nophoto='true'>
+<![CDATA[https://s.gr-assets.com/assets/nophoto/user/u_200x266-e183445fd1a1b5cc7075bb1cf7043306.png]]>
+</image_url>
+<small_image_url nophoto='true'>
+<![CDATA[https://s.gr-assets.com/assets/nophoto/user/u_50x66-632230dc9882b4352d753eedf9396530.png]]>
+</small_image_url>
+<link><![CDATA[https://www.goodreads.com/author/show/52982.Shane_Lacy_Hensley]]></link>
+<average_rating>3.96</average_rating>
+<ratings_count>2990</ratings_count>
+<text_reviews_count>171</text_reviews_count>
+</author>
+</authors>
+  <published></published>
+<work>  <id>73141768</id>
+  <uri>kca://work/amzn1.gr.work.v2.c9ba4859-a580-4f6f-be69-444e88f12a56</uri>
+</work></book>
+
+
+  <rating>5</rating>
+  <votes>0</votes>
+  <spoiler_flag>false</spoiler_flag>
+  <spoilers_state>none</spoilers_state>
+  
+
+<shelves>
+    <shelf name="read" exclusive="true" id="302365042" review_shelf_id= ""/>
+
+    <shelf exclusive='false' id='302553168' name='gaming' review_shelf_id='2625349980' sortable='false'></shelf>
+
+</shelves>
+
+  <recommended_for></recommended_for>
+  <recommended_by></recommended_by>
+  <started_at>Mon Sep 16 03:27:40 -0700 2019</started_at>
+  <read_at>Wed Dec 04 04:56:12 -0800 2019</read_at>
+  <date_added>Mon Sep 16 03:27:40 -0700 2019</date_added>
+  <date_updated>Mon Mar 30 07:40:10 -0700 2020</date_updated>
+  <read_count>1</read_count>
+  <body>
+  </body>
+
+  
+
+  <comments_count>0</comments_count>
+    <url><![CDATA[https://www.goodreads.com/review/show/2979206526]]></url>
+  <link><![CDATA[https://www.goodreads.com/review/show/2979206526]]></link>
+    <owned>0</owned>
+</review>
+
+    <review>
+  <id>2701123488</id>
+    <book>
+  <id type="integer">18309989</id>
+  <isbn nil="true"/>
+  <isbn13>9781937013202</isbn13>
+  <text_reviews_count type="integer">13</text_reviews_count>
+  <uri>kca://book/amzn1.gr.book.v1.lqWgXbibLEm4mfA80jRkMQ</uri>
+  <title>Savage Worlds Deluxe Explorers Edition</title>
+  <title_without_series>Savage Worlds Deluxe Explorers Edition</title_without_series>
+  <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1383839413l/18309989._SX98_.jpg</image_url>
+  <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1383839413l/18309989._SX50_.jpg</small_image_url>
+  <large_image_url/>
+  <link>https://www.goodreads.com/book/show/18309989-savage-worlds-deluxe-explorers-edition</link>
+  <num_pages>192</num_pages>
+  <format>Paperback</format>
+  <edition_information/>
+  <publisher>Pinnacle Entertainment Group</publisher>
+  <publication_day/>
+  <publication_year>2012</publication_year>
+  <publication_month/>
+  <average_rating>4.07</average_rating>
+  <ratings_count>1077</ratings_count>
+  <description>The contents of the Savage Worlds Deluxe: Explorer's Edition and Savage Worlds Deluxe are the same. The Explorer's Edition is formatted for 6.5"x9" while Savage Worlds Deluxe is 8.5"x11".&lt;br /&gt;&lt;br /&gt;Savage Worlds is a Fast! Furious! and Fun! rules system for any genre of roleplaying game. Create your own setting, convert an existing one, or pick up one of our amazing worlds like Deadlands, Slipstream, or Weird War II.The rules give players plenty of depth to create their characters and keep bookkeeping to a minimum for the game master. If you're looking for a game that's fast and easy to set up, run, and play, Savage Worlds is for you!&lt;br /&gt;&lt;br /&gt;Savage Worlds Deluxe is the newest edition, providing an update to the third printing of Savage Worlds Explorer's Edition. It includes rules updates, new rules material, new art, more examples, an expanded Setting Rules section, Designer Notes to give you an insight into the development, and much more. It does not, however, invalidate prior printings of the rules, which you can continue enjoy.</description>
+<authors>
+<author>
+<id>52982</id>
+<name>Shane Lacy Hensley</name>
+<role></role>
+<image_url nophoto='true'>
+<![CDATA[https://s.gr-assets.com/assets/nophoto/user/u_200x266-e183445fd1a1b5cc7075bb1cf7043306.png]]>
+</image_url>
+<small_image_url nophoto='true'>
+<![CDATA[https://s.gr-assets.com/assets/nophoto/user/u_50x66-632230dc9882b4352d753eedf9396530.png]]>
+</small_image_url>
+<link><![CDATA[https://www.goodreads.com/author/show/52982.Shane_Lacy_Hensley]]></link>
+<average_rating>3.96</average_rating>
+<ratings_count>2990</ratings_count>
+<text_reviews_count>171</text_reviews_count>
+</author>
+</authors>
+  <published>2012</published>
+<work>  <id>2031392</id>
+  <uri>kca://work/amzn1.gr.work.v1.MBV3b2PQRsmic4sq_VN6Yw</uri>
+</work></book>
+
+
+  <rating>5</rating>
+  <votes>0</votes>
+  <spoiler_flag>false</spoiler_flag>
+  <spoilers_state>none</spoilers_state>
+  
+
+<shelves>
+    <shelf name="read" exclusive="true" id="302365042" review_shelf_id= ""/>
+
+    <shelf exclusive='false' id='302553168' name='gaming' review_shelf_id='2345528652' sortable='false'></shelf>
+
+</shelves>
+
+  <recommended_for></recommended_for>
+  <recommended_by></recommended_by>
+  <started_at></started_at>
+  <read_at></read_at>
+  <date_added>Sun Feb 03 10:36:37 -0800 2019</date_added>
+  <date_updated>Wed Jul 10 10:47:21 -0700 2019</date_updated>
+  <read_count>1</read_count>
+  <body>
+  </body>
+
+  
+
+  <comments_count>0</comments_count>
+    <url><![CDATA[https://www.goodreads.com/review/show/2701123488]]></url>
+  <link><![CDATA[https://www.goodreads.com/review/show/2701123488]]></link>
+    <owned>1</owned>
+</review>
+
+    <review>
+  <id>2701121780</id>
+    <book>
+  <id type="integer">27074680</id>
+  <isbn>0985659114</isbn>
+  <isbn13>9780985659110</isbn13>
+  <text_reviews_count type="integer">1</text_reviews_count>
+  <uri>kca://book/amzn1.gr.book.v1.LR26lvIZmMbUPOyj0nxMzw</uri>
+  <title>Low Life: The Rise of the Lowly</title>
+  <title_without_series>Low Life: The Rise of the Lowly</title_without_series>
+  <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1444498845l/27074680._SX98_.jpg</image_url>
+  <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1444498845l/27074680._SX50_.jpg</small_image_url>
+  <large_image_url/>
+  <link>https://www.goodreads.com/book/show/27074680-low-life</link>
+  <num_pages>280</num_pages>
+  <format>Hardcover</format>
+  <edition_information>ReDredged</edition_information>
+  <publisher>Mutha Oith Creations</publisher>
+  <publication_day>30</publication_day>
+  <publication_year>2015</publication_year>
+  <publication_month>1</publication_month>
+  <average_rating>5.00</average_rating>
+  <ratings_count>4</ratings_count>
+  <description>GAZILLIONS of years have passed since the Time of the Flush and the extinction of the vaunted Hoomanrace. Now, After the Wipe, the descendants of cockroaches, snack cakes, worms, and even lowlier things rule the Oith!&lt;br /&gt;&lt;br /&gt;Waggle the arcane zazz of hocus pokery, dementalism, smellcasting, holy rolling, danged wrangling, and contanimation! Battle hideous things that want to eat you, risen from the rubble of ancient civilizations. Enjoy a light lunch at the Primordial Soup Kitchen...&lt;br /&gt;&lt;br /&gt;Audacious times are upon us! Lost lands and forgotten civilizations await discovery. Terrible monsters and grand treasures lurk behind every rock. There are hoards to nab, foes to stab, and tales to blab. these are the days of Low adventure, where destiny is shaped not by circumstance of birth, but by strength of snazz, zazz, and jazz. It’s a bold world for bold peeps, where life is relatively inexpensive and even the lowliest werm can become a king by his own mop.&lt;br /&gt;&lt;br /&gt;Are you croach enough to follow your destiny? Do you have the nuggets to take your rightful place among Oith’s most valiant heroes?&lt;br /&gt;&lt;br /&gt;If so, strap on your esophagator hide shield, pick up your battle spork, mount your slog, whisper a prayer to Jelvis, kiss your larvae goodbye, and open the goosin’ book. The muck-riddled road to LOW ADVENTURE stands before you...</description>
+<authors>
+<author>
+<id>42705</id>
+<name>Andy Hopp</name>
+<role></role>
+<image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1442451659p5/42705.jpg]]>
+</image_url>
+<small_image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1442451659p2/42705.jpg]]>
+</small_image_url>
+<link><![CDATA[https://www.goodreads.com/author/show/42705.Andy_Hopp]]></link>
+<average_rating>4.02</average_rating>
+<ratings_count>215</ratings_count>
+<text_reviews_count>37</text_reviews_count>
+</author>
+</authors>
+  <published>2015</published>
+<work>  <id>47116915</id>
+  <uri>kca://work/amzn1.gr.work.v1.X7JkvJnKqzrwDG3npZZWlA</uri>
+</work></book>
+
+
+  <rating>5</rating>
+  <votes>0</votes>
+  <spoiler_flag>false</spoiler_flag>
+  <spoilers_state>none</spoilers_state>
+  
+
+<shelves>
+    <shelf name="read" exclusive="true" id="302365042" review_shelf_id= ""/>
+
+    <shelf exclusive='false' id='302553168' name='gaming' review_shelf_id='2345528645' sortable='false'></shelf>
+
+</shelves>
+
+  <recommended_for></recommended_for>
+  <recommended_by></recommended_by>
+  <started_at></started_at>
+  <read_at></read_at>
+  <date_added>Sun Feb 03 10:35:21 -0800 2019</date_added>
+  <date_updated>Sun Feb 03 12:05:40 -0800 2019</date_updated>
+  <read_count>1</read_count>
+  <body>
+  </body>
+
+  
+
+  <comments_count>0</comments_count>
+    <url><![CDATA[https://www.goodreads.com/review/show/2701121780]]></url>
+  <link><![CDATA[https://www.goodreads.com/review/show/2701121780]]></link>
+    <owned>1</owned>
+</review>
+
+    <review>
+  <id>2701121123</id>
+    <book>
+  <id type="integer">16719164</id>
+  <isbn>0985659106</isbn>
+  <isbn13>9780985659103</isbn13>
+  <text_reviews_count type="integer">5</text_reviews_count>
+  <uri>kca://book/amzn1.gr.book.v1.XHx0KdzRk9OOAkK0kxVxsw</uri>
+  <title>Whole Hole Volume 1 Keister Island</title>
+  <title_without_series>Whole Hole Volume 1 Keister Island</title_without_series>
+  <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1358958480l/16719164._SX98_.jpg</image_url>
+  <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1358958480l/16719164._SY75_.jpg</small_image_url>
+  <large_image_url/>
+  <link>https://www.goodreads.com/book/show/16719164-whole-hole-volume-1-keister-island</link>
+  <num_pages>223</num_pages>
+  <format>Hardcover</format>
+  <edition_information/>
+  <publisher>Mutha Oith Creations</publisher>
+  <publication_day>30</publication_day>
+  <publication_year>2013</publication_year>
+  <publication_month>1</publication_month>
+  <average_rating>4.70</average_rating>
+  <ratings_count>10</ratings_count>
+  <description>The Whole Hole – A Gadabout’s Guide to Mutha Oith – Vol. 01: Keister Island&lt;br /&gt;&lt;br /&gt;The first in a series of guidebooks exploring the lands, peeps, beasts, and ways of Mutha Oith.&lt;br /&gt;&lt;br /&gt;Tash Shardborn has this to say:&lt;br /&gt;&lt;br /&gt; “In a very real sense, the Keister is the island. But in an equally, and more accurately, real sense the island is the island. Witness the cosmopolitan jumble of Floom, the aromatic mysticisms of the Garden of Smellemental Glee, the monumental juts and caverns of the Knobby Rumple… Behold dank rites and unspeakable atrocities as you scramble your way through the lichenous strew of Stan’s Rug. Prance the loamy frolic of the Soul Patch. Wallow in the ichorous murk of the Imple Slew. Wonder what all those statues are about. Do some other stuff. Try not to get eaten.”&lt;br /&gt;&lt;br /&gt; The Whole Hole – A Gadabout’s Guide to Mutha Oith, Volume 01: Keister Island is the first in a series of guidebooks (that’s what “Volume 01” means) designed to immerse the reader within and among the places, peeps, beasts, and happenings of the various realms of Mutha Oith. Join intrepid gadabout Toucanacondor Flaminguez as he tours Keister Island. You’ll explore dozens of locales, meet hundreds of peeps, examine new religions, gawp in awe at wondrous magics, and run in terror from a bunsload of horrifying monstrosities.&lt;br /&gt;&lt;br /&gt;Here you’ll investigate the Fundamental nature of all things, dabble in smellcasting at the Garden of Smellemental Glee, chug suds with Floom’s elite, and marvel at the bottomless Keister of Gawd. There’s new Holy Crap, new Edges and Hindrances, New PC species, new setting rules, and twenty pages of new monsters. Seriously, stop reading the description and just buy the goosin’ thing already.&lt;br /&gt;&lt;br /&gt;The Savage Worlds rules system by Pinnacle Entertainment Group is required to play the game, but not necessarily to enjoy the book.&lt;br /&gt;&lt;br /&gt;224 pages&lt;br /&gt;Full Color&lt;br /&gt;&lt;br /&gt;Dredged from the muck by Andy Hopp</description>
+<authors>
+<author>
+<id>42705</id>
+<name>Andy Hopp</name>
+<role></role>
+<image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1442451659p5/42705.jpg]]>
+</image_url>
+<small_image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1442451659p2/42705.jpg]]>
+</small_image_url>
+<link><![CDATA[https://www.goodreads.com/author/show/42705.Andy_Hopp]]></link>
+<average_rating>4.02</average_rating>
+<ratings_count>215</ratings_count>
+<text_reviews_count>37</text_reviews_count>
+</author>
+</authors>
+  <published>2013</published>
+<work>  <id>22958699</id>
+  <uri>kca://work/amzn1.gr.work.v1.KiD46A-q-MddnIcbLldF2g</uri>
+</work></book>
+
+
+  <rating>5</rating>
+  <votes>0</votes>
+  <spoiler_flag>false</spoiler_flag>
+  <spoilers_state>none</spoilers_state>
+  
+
+<shelves>
+    <shelf name="read" exclusive="true" id="302365042" review_shelf_id= ""/>
+
+    <shelf exclusive='false' id='302553168' name='gaming' review_shelf_id='2345528636' sortable='false'></shelf>
+
+</shelves>
+
+  <recommended_for></recommended_for>
+  <recommended_by></recommended_by>
+  <started_at></started_at>
+  <read_at></read_at>
+  <date_added>Sun Feb 03 10:34:49 -0800 2019</date_added>
+  <date_updated>Sun Feb 03 12:05:40 -0800 2019</date_updated>
+  <read_count>1</read_count>
+  <body>
+  </body>
+
+  
+
+  <comments_count>0</comments_count>
+    <url><![CDATA[https://www.goodreads.com/review/show/2701121123]]></url>
+  <link><![CDATA[https://www.goodreads.com/review/show/2701121123]]></link>
+    <owned>1</owned>
+</review>
+
+    <review>
+  <id>2701120874</id>
+    <book>
+  <id type="integer">26240962</id>
+  <isbn>1608867560</isbn>
+  <isbn13>9781608867561</isbn13>
+  <text_reviews_count type="integer">4</text_reviews_count>
+  <uri>kca://book/amzn1.gr.book.v1.3IlRTJdNAvgRgocR9zEFRw</uri>
+  <title>Mouse Guard Roleplaying Game</title>
+  <title_without_series>Mouse Guard Roleplaying Game</title_without_series>
+  <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1447085277l/26240962._SX98_.jpg</image_url>
+  <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1447085277l/26240962._SX50_.jpg</small_image_url>
+  <large_image_url/>
+  <link>https://www.goodreads.com/book/show/26240962-mouse-guard-roleplaying-game</link>
+  <num_pages>320</num_pages>
+  <format>Hardcover</format>
+  <edition_information>2nd Edition</edition_information>
+  <publisher>Archaia</publisher>
+  <publication_day>3</publication_day>
+  <publication_year>2015</publication_year>
+  <publication_month>11</publication_month>
+  <average_rating>4.46</average_rating>
+  <ratings_count>94</ratings_count>
+  <description>David Petersen's&lt;i&gt; Mouse Guard Roleplaying Game&lt;/i&gt; is finally back in print!&lt;br /&gt;&lt;br /&gt;For Mouse Guard fans who own the original &lt;i&gt;Mouse Guard Roleplaying Game Box Set&lt;/i&gt;, or anyone who’d like to enlist in the Mouse Guard for the first time, the second edition of this rule book contains everything players need to know about the world of the Guard, including rules for forming patrols and leading missions into the beleaguered territories. This updated edition of the Origins Award-winning game contains new art, additional Action, Weapon, and Condition cards, and a revised and updated rule book.</description>
+<authors>
+<author>
+<id>36203</id>
+<name>David Petersen</name>
+<role></role>
+<image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1256493636p5/36203.jpg]]>
+</image_url>
+<small_image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1256493636p2/36203.jpg]]>
+</small_image_url>
+<link><![CDATA[https://www.goodreads.com/author/show/36203.David_Petersen]]></link>
+<average_rating>3.99</average_rating>
+<ratings_count>153485</ratings_count>
+<text_reviews_count>5745</text_reviews_count>
+</author>
+</authors>
+  <published>2015</published>
+<work>  <id>46233171</id>
+  <uri>kca://work/amzn1.gr.work.v1.97rP23efY6wYmMiWnFHa9g</uri>
+</work></book>
+
+
+  <rating>5</rating>
+  <votes>0</votes>
+  <spoiler_flag>false</spoiler_flag>
+  <spoilers_state>none</spoilers_state>
+  
+
+<shelves>
+    <shelf name="read" exclusive="true" id="302365042" review_shelf_id= ""/>
+
+    <shelf exclusive='false' id='302553168' name='gaming' review_shelf_id='2345528628' sortable='false'></shelf>
+
+</shelves>
+
+  <recommended_for></recommended_for>
+  <recommended_by></recommended_by>
+  <started_at></started_at>
+  <read_at></read_at>
+  <date_added>Sun Feb 03 10:34:38 -0800 2019</date_added>
+  <date_updated>Sun Feb 03 12:05:40 -0800 2019</date_updated>
+  <read_count>1</read_count>
+  <body>
+  </body>
+
+  
+
+  <comments_count>0</comments_count>
+    <url><![CDATA[https://www.goodreads.com/review/show/2701120874]]></url>
+  <link><![CDATA[https://www.goodreads.com/review/show/2701120874]]></link>
+    <owned>1</owned>
+</review>
+
+    <review>
+  <id>2701119813</id>
+    <book>
+  <id type="integer">18758771</id>
+  <isbn nil="true"/>
+  <isbn13>9780983613312</isbn13>
+  <text_reviews_count type="integer">0</text_reviews_count>
+  <uri>kca://book/amzn1.gr.book.v1.IFVbwleGo9Lg2hi2XkHgHw</uri>
+  <title>Masks: 1,000 Memorable NPCs for any Roleplaying Game</title>
+  <title_without_series>Masks: 1,000 Memorable NPCs for any Roleplaying Game</title_without_series>
+  <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1383838447l/18758771._SX98_.jpg</image_url>
+  <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1383838447l/18758771._SX50_.jpg</small_image_url>
+  <large_image_url/>
+  <link>https://www.goodreads.com/book/show/18758771-masks</link>
+  <num_pages>335</num_pages>
+  <format>Paperback</format>
+  <edition_information>1st</edition_information>
+  <publisher>Engine Publishing</publisher>
+  <publication_day>1</publication_day>
+  <publication_year>2011</publication_year>
+  <publication_month>7</publication_month>
+  <average_rating>4.33</average_rating>
+  <ratings_count>21</ratings_count>
+  <description>Playing a character is like putting on a mask: Slip on a mask, and you become someone else.&lt;br /&gt;&lt;br /&gt;This book presents 1,000 “masks” — non-player characters that are fun to play, and that your players will never forget. Featuring a foreword by gaming industry legend Wolfgang Baur, Masks is the ultimate NPC resource.&lt;br /&gt;&lt;br /&gt;Think of your favorite character from a game, book, or movie. What makes them memorable? It’s not their Strength score, or how many hit points they have — it’s who they are as a person: what they look like, how they act, their personality, and what drives them.&lt;br /&gt;&lt;br /&gt;Using a simple but powerful template that features Appearance, Roleplaying, Personality, Motivation, Background, and Traits, Masks provides the core elements of a thousand great characters. Masks NPCs are designed to be used on the fly, no prep required — but with enough depth to be used when planning adventures, as well.&lt;br /&gt;&lt;br /&gt;Within this massive collection you’ll find the resources you need to portray vivid NPCs in your games:&lt;br /&gt;&lt;br /&gt;Fantasy, science fiction, and modern NPCs: 333 of each (334 in fantasy), all easily adaptable to any genre and any RPG&lt;br /&gt;Roles and traits: Every NPC has a role — villain, ally, or neutral — and is categorized by traits like famous, criminal, and warrior&lt;br /&gt;Clear, useful game mastering advice: Masks covers re-skinning NPCs to fit other genres, making your portrayals memorable, and more&lt;br /&gt;Handy tools: NPCs are indexed by trait, name, and author; an appendix lists groups like Tavern Patrons and Spaceport Denizens; and Masks provides over 1,900 names in an easy-to-use format&lt;br /&gt;No game mechanics: These system-neutral NPCs can be used in any RPG</description>
+<authors>
+<author>
+<id>4633163</id>
+<name>John Arcadian</name>
+<role></role>
+<image_url nophoto='true'>
+<![CDATA[https://s.gr-assets.com/assets/nophoto/user/u_200x266-e183445fd1a1b5cc7075bb1cf7043306.png]]>
+</image_url>
+<small_image_url nophoto='true'>
+<![CDATA[https://s.gr-assets.com/assets/nophoto/user/u_50x66-632230dc9882b4352d753eedf9396530.png]]>
+</small_image_url>
+<link><![CDATA[https://www.goodreads.com/author/show/4633163.John_Arcadian]]></link>
+<average_rating>4.05</average_rating>
+<ratings_count>156</ratings_count>
+<text_reviews_count>18</text_reviews_count>
+</author>
+</authors>
+  <published>2011</published>
+<work>  <id>26653272</id>
+  <uri>kca://work/amzn1.gr.work.v1.GXvZlHHtm06e3KdKbEy0UQ</uri>
+</work></book>
+
+
+  <rating>5</rating>
+  <votes>0</votes>
+  <spoiler_flag>false</spoiler_flag>
+  <spoilers_state>none</spoilers_state>
+  
+
+<shelves>
+    <shelf name="read" exclusive="true" id="302365042" review_shelf_id= ""/>
+
+    <shelf exclusive='false' id='302553168' name='gaming' review_shelf_id='2345528623' sortable='false'></shelf>
+
+</shelves>
+
+  <recommended_for></recommended_for>
+  <recommended_by></recommended_by>
+  <started_at></started_at>
+  <read_at></read_at>
+  <date_added>Sun Feb 03 10:33:52 -0800 2019</date_added>
+  <date_updated>Sun Feb 03 12:05:39 -0800 2019</date_updated>
+  <read_count>1</read_count>
+  <body>
+  </body>
+
+  
+
+  <comments_count>0</comments_count>
+    <url><![CDATA[https://www.goodreads.com/review/show/2701119813]]></url>
+  <link><![CDATA[https://www.goodreads.com/review/show/2701119813]]></link>
+    <owned>1</owned>
+</review>
+
+    <review>
+  <id>2701117289</id>
+    <book>
+  <id type="integer">22219679</id>
+  <isbn>0786965622</isbn>
+  <isbn13>9780786965625</isbn13>
+  <text_reviews_count type="integer">161</text_reviews_count>
+  <uri>kca://book/amzn1.gr.book.v1.Xw3onqeGPrtNx-mihbcmGA</uri>
+  <title>Dungeon Master's Guide</title>
+  <title_without_series>Dungeon Master's Guide</title_without_series>
+  <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403177184l/22219679._SX98_.jpg</image_url>
+  <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403177184l/22219679._SX50_.jpg</small_image_url>
+  <large_image_url/>
+  <link>https://www.goodreads.com/book/show/22219679-dungeon-master-s-guide</link>
+  <num_pages>320</num_pages>
+  <format>Hardcover</format>
+  <edition_information>5th Edition</edition_information>
+  <publisher>Wizards of the Coast</publisher>
+  <publication_day>9</publication_day>
+  <publication_year>2014</publication_year>
+  <publication_month>12</publication_month>
+  <average_rating>4.53</average_rating>
+  <ratings_count>4120</ratings_count>
+  <description>&lt;b&gt;Everything a Dungeon Master needs to weave legendary stories for the world's greatest roleplaying game&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;The Dungeon Master's Guide provides the inspiration and the guidance you need to spark your imagination and create worlds of adventure for your players to explore and enjoy.&lt;br /&gt;&lt;br /&gt;Inside you'll find world-building tools, tips and tricks for creating memorable dungeons and adventures, optional game rules, hundreds of classic D&amp;amp;D magic items, and much more!&lt;br /&gt;&lt;br /&gt;- The third of three core rulebooks, this book contains tools a Dungeon Master needs to provide captivating stories and game play. &lt;br /&gt; - An excellent resource for new and existing Dungeons Masters to engage in both adventure and world creation, with rules, guidelines, and sage advice from the game's experts. &lt;br /&gt; - Created as part of a massive public playtest involving more than 170,000 fans of the game.</description>
+<authors>
+<author>
+<id>20512</id>
+<name>Mike Mearls</name>
+<role></role>
+<image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1233858885p5/20512.jpg]]>
+</image_url>
+<small_image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1233858885p2/20512.jpg]]>
+</small_image_url>
+<link><![CDATA[https://www.goodreads.com/author/show/20512.Mike_Mearls]]></link>
+<average_rating>4.31</average_rating>
+<ratings_count>10226</ratings_count>
+<text_reviews_count>329</text_reviews_count>
+</author>
+</authors>
+  <published>2014</published>
+<work>  <id>49475329</id>
+  <uri>kca://work/amzn1.gr.work.v1.u5i4cwyLGkKott6uNfywsA</uri>
+</work></book>
+
+
+  <rating>5</rating>
+  <votes>0</votes>
+  <spoiler_flag>false</spoiler_flag>
+  <spoilers_state>none</spoilers_state>
+  
+
+<shelves>
+    <shelf name="read" exclusive="true" id="302365042" review_shelf_id= ""/>
+
+    <shelf exclusive='false' id='302553168' name='gaming' review_shelf_id='2345528620' sortable='false'></shelf>
+
+</shelves>
+
+  <recommended_for></recommended_for>
+  <recommended_by></recommended_by>
+  <started_at></started_at>
+  <read_at></read_at>
+  <date_added>Sun Feb 03 10:31:57 -0800 2019</date_added>
+  <date_updated>Sun Feb 03 12:05:39 -0800 2019</date_updated>
+  <read_count>1</read_count>
+  <body>
+  </body>
+
+  
+
+  <comments_count>0</comments_count>
+    <url><![CDATA[https://www.goodreads.com/review/show/2701117289]]></url>
+  <link><![CDATA[https://www.goodreads.com/review/show/2701117289]]></link>
+    <owned>1</owned>
+</review>
+
+    <review>
+  <id>2701112286</id>
+    <book>
+  <id type="integer">14536464</id>
+  <isbn>1613186312</isbn>
+  <isbn13>9781613186312</isbn13>
+  <text_reviews_count type="integer">0</text_reviews_count>
+  <uri>kca://book/amzn1.gr.book.v1.O8O6YyOSu4rIRTpb4Cuhyg</uri>
+  <title>Terracide</title>
+  <title_without_series>Terracide</title_without_series>
+  <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+  <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+  <large_image_url/>
+  <link>https://www.goodreads.com/book/show/14536464-terracide</link>
+  <num_pages>184</num_pages>
+  <format>Paperback</format>
+  <edition_information/>
+  <publisher>Blackwyrm</publisher>
+  <publication_day>4</publication_day>
+  <publication_year>2011</publication_year>
+  <publication_month>8</publication_month>
+  <average_rating>5.00</average_rating>
+  <ratings_count>1</ratings_count>
+  <description></description>
+<authors>
+<author>
+<id>6070124</id>
+<name>Grady Elliott</name>
+<role></role>
+<image_url nophoto='true'>
+<![CDATA[https://s.gr-assets.com/assets/nophoto/user/u_200x266-e183445fd1a1b5cc7075bb1cf7043306.png]]>
+</image_url>
+<small_image_url nophoto='true'>
+<![CDATA[https://s.gr-assets.com/assets/nophoto/user/u_50x66-632230dc9882b4352d753eedf9396530.png]]>
+</small_image_url>
+<link><![CDATA[https://www.goodreads.com/author/show/6070124.Grady_Elliott]]></link>
+<average_rating>5.00</average_rating>
+<ratings_count>1</ratings_count>
+<text_reviews_count>0</text_reviews_count>
+</author>
+</authors>
+  <published>2011</published>
+<work>  <id>20179143</id>
+  <uri>kca://work/amzn1.gr.work.v1.MxXLycOHWJ_st8jn3CD_ug</uri>
+</work></book>
+
+
+  <rating>5</rating>
+  <votes>0</votes>
+  <spoiler_flag>false</spoiler_flag>
+  <spoilers_state>none</spoilers_state>
+  
+
+<shelves>
+    <shelf name="read" exclusive="true" id="302365042" review_shelf_id= ""/>
+
+    <shelf exclusive='false' id='302553168' name='gaming' review_shelf_id='2345528614' sortable='false'></shelf>
+
+</shelves>
+
+  <recommended_for></recommended_for>
+  <recommended_by></recommended_by>
+  <started_at></started_at>
+  <read_at></read_at>
+  <date_added>Sun Feb 03 10:28:19 -0800 2019</date_added>
+  <date_updated>Sun Feb 03 12:05:39 -0800 2019</date_updated>
+  <read_count>1</read_count>
+  <body>
+  </body>
+
+  
+
+  <comments_count>0</comments_count>
+    <url><![CDATA[https://www.goodreads.com/review/show/2701112286]]></url>
+  <link><![CDATA[https://www.goodreads.com/review/show/2701112286]]></link>
+    <owned>1</owned>
+</review>
+
+    <review>
+  <id>2701111266</id>
+    <book>
+  <id type="integer">228030</id>
+  <isbn>0152387420</isbn>
+  <isbn13>9780152387426</isbn13>
+  <text_reviews_count type="integer">57</text_reviews_count>
+  <uri>kca://book/amzn1.gr.book.v1.0WH6mDW1TWgZgMTyEXNeag</uri>
+  <title>In the Beginning: Creation Stories from Around the World</title>
+  <title_without_series>In the Beginning: Creation Stories from Around the World</title_without_series>
+  <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+  <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+  <large_image_url/>
+  <link>https://www.goodreads.com/book/show/228030.In_the_Beginning</link>
+  <num_pages>176</num_pages>
+  <format>Paperback</format>
+  <edition_information/>
+  <publisher>HMH Books for Young Readers</publisher>
+  <publication_day>15</publication_day>
+  <publication_year>1991</publication_year>
+  <publication_month>9</publication_month>
+  <average_rating>3.80</average_rating>
+  <ratings_count>674</ratings_count>
+  <description>A thought-provoking collection of twenty-five stories that reflect the wonder and glory of the origins of the world and humankind. With commentary by the author. “A must for mythology shelves.”--&lt;i&gt;Booklist&lt;/i&gt;&lt;br /&gt;</description>
+<authors>
+<author>
+<id>24588</id>
+<name>Virginia Hamilton</name>
+<role></role>
+<image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1237687938p5/24588.jpg]]>
+</image_url>
+<small_image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1237687938p2/24588.jpg]]>
+</small_image_url>
+<link><![CDATA[https://www.goodreads.com/author/show/24588.Virginia_Hamilton]]></link>
+<average_rating>3.67</average_rating>
+<ratings_count>15250</ratings_count>
+<text_reviews_count>1680</text_reviews_count>
+</author>
+</authors>
+  <published>1991</published>
+<work>  <id>220857</id>
+  <uri>kca://work/amzn1.gr.work.v1.H-Po_5zIBkx6qkJ1ItLU4w</uri>
+</work></book>
+
+
+  <rating>5</rating>
+  <votes>0</votes>
+  <spoiler_flag>false</spoiler_flag>
+  <spoilers_state>none</spoilers_state>
+  
+
+<shelves>
+    <shelf name="read" exclusive="true" id="302365042" review_shelf_id= ""/>
+
+    <shelf exclusive='false' id='302553168' name='gaming' review_shelf_id='2485266075' sortable='false'></shelf>
+
+</shelves>
+
+  <recommended_for></recommended_for>
+  <recommended_by></recommended_by>
+  <started_at></started_at>
+  <read_at></read_at>
+  <date_added>Sun Feb 03 10:27:35 -0800 2019</date_added>
+  <date_updated>Wed May 29 11:46:33 -0700 2019</date_updated>
+  <read_count>1</read_count>
+  <body>
+  </body>
+
+  
+
+  <comments_count>0</comments_count>
+    <url><![CDATA[https://www.goodreads.com/review/show/2701111266]]></url>
+  <link><![CDATA[https://www.goodreads.com/review/show/2701111266]]></link>
+    <owned>1</owned>
+</review>
+
+    <review>
+  <id>2699652782</id>
+    <book>
+  <id type="integer">10414632</id>
+  <isbn>0615321860</isbn>
+  <isbn13>9780615321868</isbn13>
+  <text_reviews_count type="integer">1</text_reviews_count>
+  <uri>kca://book/amzn1.gr.book.v1.O8j9CFe827BBf8l2u_jppQ</uri>
+  <title>Eureka: 501 Adventure Plots To Inspire Game Masters, Egp42001)</title>
+  <title_without_series>Eureka: 501 Adventure Plots To Inspire Game Masters, Egp42001)</title_without_series>
+  <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1354802749l/10414632._SX98_.jpg</image_url>
+  <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1354802749l/10414632._SX50_.jpg</small_image_url>
+  <large_image_url/>
+  <link>https://www.goodreads.com/book/show/10414632-eureka</link>
+  <num_pages></num_pages>
+  <format></format>
+  <edition_information/>
+  <publisher></publisher>
+  <publication_day></publication_day>
+  <publication_year></publication_year>
+  <publication_month></publication_month>
+  <average_rating>4.19</average_rating>
+  <ratings_count>32</ratings_count>
+  <description></description>
+<authors>
+<author>
+<id>4633162</id>
+<name>Martin Ralya</name>
+<role></role>
+<image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1492017529p5/4633162.jpg]]>
+</image_url>
+<small_image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1492017529p2/4633162.jpg]]>
+</small_image_url>
+<link><![CDATA[https://www.goodreads.com/author/show/4633162.Martin_Ralya]]></link>
+<average_rating>4.02</average_rating>
+<ratings_count>141</ratings_count>
+<text_reviews_count>16</text_reviews_count>
+</author>
+</authors>
+  <published></published>
+<work>  <id>15318841</id>
+  <uri>kca://work/amzn1.gr.work.v1.O7fA9x5ZQClhJLyChyk2hA</uri>
+</work></book>
+
+
+  <rating>5</rating>
+  <votes>0</votes>
+  <spoiler_flag>false</spoiler_flag>
+  <spoilers_state>none</spoilers_state>
+  
+
+<shelves>
+    <shelf name="read" exclusive="true" id="302365042" review_shelf_id= ""/>
+
+    <shelf exclusive='false' id='302553168' name='gaming' review_shelf_id='2345529525' sortable='false'></shelf>
+
+</shelves>
+
+  <recommended_for></recommended_for>
+  <recommended_by></recommended_by>
+  <started_at></started_at>
+  <read_at></read_at>
+  <date_added>Sat Feb 02 09:04:43 -0800 2019</date_added>
+  <date_updated>Sun Feb 03 12:05:39 -0800 2019</date_updated>
+  <read_count>1</read_count>
+  <body>
+  </body>
+
+  
+
+  <comments_count>0</comments_count>
+    <url><![CDATA[https://www.goodreads.com/review/show/2699652782]]></url>
+  <link><![CDATA[https://www.goodreads.com/review/show/2699652782]]></link>
+    <owned>1</owned>
+</review>
+
+</reviews>
+
+</GoodreadsResponse>

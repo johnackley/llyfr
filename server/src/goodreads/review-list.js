@@ -1,15 +1,27 @@
-const { Pagination } = require('./pagination');
 const { Review } = require('./review');
-const { ShelfRef } = require('./shelf-ref');
 
 class ReviewList {
-  constructor(data) {
-    console.log('review-list data:', data);
-    this.shelfRef = new ShelfRef(data.shelf[0]['$']);
-    this.pagination = new Pagination(data.reviews[0]['$']);
-    this.reviews = data.reviews[0].review.map(x => new Review(x));
+  constructor(data, reviewData, pagination) {
+    // console.log('review-ref data:', data);
+    this.name = data.name;
+    this.id = data.id;
+    this.sortable = data.sortable === 'true';
+    this.exclusive = data.exclusive === 'true';
+    if (data.review_shelf_id) {
+      this.review_shelf_id = data.review_shelf_id;
+    }
+    if (reviewData) {
+      this.reviews = reviewData.map(x => new Review(x));
+    }
+    if (pagination) {
+      this.pagination = pagination;
+    }
+    // console.log('parsed review-list:', this);
   }
 }
 
 module.exports = { ReviewList };
 
+// ShelfRef: exclusive='true' id='302365040' name='to-read' sortable='true'
+// review_shelf_id: string; // '3030698042'
+// reviews: Array<Review>;

@@ -1,0 +1,769 @@
+<GoodreadsResponse>
+  <Request>
+    <authentication>true</authentication>
+      <key><![CDATA[aMZDi8wrgVAaHtyOUOCjug]]></key>
+    <method><![CDATA[series_list]]></method>
+  </Request>
+  <series_works>
+    <series_work>
+      <id>1476298</id>
+      <user_position>1</user_position>
+      <series>
+        <id>268322</id>
+        <title> <![CDATA[ 5-Minute Sherlock ]]> </title>
+        <description> <![CDATA[ ]]> </description>
+        <note> <![CDATA[ ]]> </note>
+        <series_works_count>1</series_works_count>
+        <primary_work_count>1</primary_work_count>
+        <numbered>true</numbered>
+      </series>
+
+      <work>
+        <id>71235979</id>
+        <uri>kca://work/amzn1.gr.work.v1.SGy9mhe5QazMiTepBCZO9g</uri>
+        <best_book>
+          <id>46253321</id>
+          <title>The Case of the Damaged Detective (5-Minute Sherlock, #1)</title>
+          <author>
+            <id>7077654</id>
+            <name>Drew  Hayes</name>
+          </author>
+          <image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1560202530l/46253321._SX98_.jpg]]></image_url>
+        </best_book>
+        <books_count>4</books_count>
+        <original_publication_day>13</original_publication_day>
+        <original_publication_month>6</original_publication_month>
+        <original_publication_year>2019</original_publication_year>
+        <original_title></original_title>
+        <ratings_count>669</ratings_count>
+        <ratings_sum>2727</ratings_sum>
+        <reviews_count>1162</reviews_count>
+        <text_reviews_count>82</text_reviews_count>
+        <average_rating></average_rating>
+      </work>
+    </series_work>
+
+    <series_work>
+    <id>1005426</id>
+    <user_position>1</user_position>
+    <series>
+    <id>196608</id>
+    <title>
+    <![CDATA[
+        Villains' Code
+    ]]>
+    </title>
+    <description>
+    <![CDATA[
+    ]]>
+    </description>
+    <note>
+    <![CDATA[
+    ]]>
+    </note>
+    <series_works_count>1</series_works_count>
+    <primary_work_count>1</primary_work_count>
+    <numbered>true</numbered>
+    </series>
+
+    <work>
+    <id>53496082</id>
+    <uri>kca://work/amzn1.gr.work.v1.5C6WOO34MPrQQoqlJokbuQ</uri>
+    <best_book>
+    <id>33369873</id>
+    <title>Forging Hephaestus</title>
+    <author>
+    <id>7077654</id>
+    <name>Drew  Hayes</name>
+    </author>
+    <image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1487461241l/33369873._SX98_.jpg]]></image_url>
+    </best_book>
+    <books_count>7</books_count>
+    <original_publication_day>24</original_publication_day>
+    <original_publication_month>2</original_publication_month>
+    <original_publication_year>2017</original_publication_year>
+    <original_title></original_title>
+    <ratings_count>3048</ratings_count>
+    <ratings_sum>13824</ratings_sum>
+    <reviews_count>5304</reviews_count>
+    <text_reviews_count>255</text_reviews_count>
+    <average_rating></average_rating>
+    </work>
+
+    </series_work>
+    <series_work>
+    <id>845508</id>
+    <user_position>1</user_position>
+    <series>
+    <id>167002</id>
+    <title>
+    <![CDATA[
+        Spells, Swords, & Stealth
+    ]]>
+    </title>
+    <description>
+    <![CDATA[
+    ]]>
+    </description>
+    <note>
+    <![CDATA[
+    ]]>
+    </note>
+    <series_works_count>4</series_works_count>
+    <primary_work_count>4</primary_work_count>
+    <numbered>true</numbered>
+    </series>
+
+    <work>
+    <id>41426688</id>
+    <uri>kca://work/amzn1.gr.work.v1.jSqGFXKJ3-ttGR4eJVPGOg</uri>
+    <best_book>
+    <id>22088245</id>
+    <title>NPCs (Spells, Swords, &amp; Stealth, #1)</title>
+    <author>
+    <id>7077654</id>
+    <name>Drew  Hayes</name>
+    </author>
+    <image_url><![CDATA[https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png]]></image_url>
+    </best_book>
+    <books_count>8</books_count>
+    <original_publication_day>29</original_publication_day>
+    <original_publication_month>4</original_publication_month>
+    <original_publication_year>2014</original_publication_year>
+    <original_title>NPCs</original_title>
+    <ratings_count>9423</ratings_count>
+    <ratings_sum>38087</ratings_sum>
+    <reviews_count>17774</reviews_count>
+    <text_reviews_count>873</text_reviews_count>
+    <average_rating></average_rating>
+    </work>
+
+    </series_work>
+    <series_work>
+    <id>831938</id>
+    <user_position>1</user_position>
+    <series>
+    <id>164322</id>
+    <title>
+    <![CDATA[
+        Fred, the Vampire Accountant
+    ]]>
+    </title>
+    <description>
+    <![CDATA[
+    ]]>
+    </description>
+    <note>
+    <![CDATA[
+    ]]>
+    </note>
+    <series_works_count>6</series_works_count>
+    <primary_work_count>6</primary_work_count>
+    <numbered>true</numbered>
+    </series>
+
+    <work>
+    <id>41419594</id>
+    <uri>kca://work/amzn1.gr.work.v1.H_ktxF6KVGL-ExlX2QwoDQ</uri>
+    <best_book>
+    <id>22081680</id>
+    <title>The Utterly Uninteresting and Unadventurous Tales of Fred, the Vampire Accountant (Fred, the Vampire Accountant, #1)</title>
+    <author>
+    <id>7077654</id>
+    <name>Drew  Hayes</name>
+    </author>
+    <image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403014158l/22081680._SX98_.jpg]]></image_url>
+    </best_book>
+    <books_count>9</books_count>
+    <original_publication_day>1</original_publication_day>
+    <original_publication_month>7</original_publication_month>
+    <original_publication_year>2014</original_publication_year>
+    <original_title></original_title>
+    <ratings_count>8699</ratings_count>
+    <ratings_sum>33720</ratings_sum>
+    <reviews_count>18362</reviews_count>
+    <text_reviews_count>1086</text_reviews_count>
+    <average_rating></average_rating>
+    </work>
+
+    </series_work>
+    <series_work>
+    <id>845509</id>
+    <user_position>2</user_position>
+    <series>
+    <id>167002</id>
+    <title>
+    <![CDATA[
+        Spells, Swords, & Stealth
+    ]]>
+    </title>
+    <description>
+    <![CDATA[
+    ]]>
+    </description>
+    <note>
+    <![CDATA[
+    ]]>
+    </note>
+    <series_works_count>4</series_works_count>
+    <primary_work_count>4</primary_work_count>
+    <numbered>true</numbered>
+    </series>
+
+    <work>
+    <id>45810072</id>
+    <uri>kca://work/amzn1.gr.work.v1.-MlYEwtx1-4FLwhOwXfl7w</uri>
+    <best_book>
+    <id>25920141</id>
+    <title>Split the Party (Spells, Swords, &amp; Stealth, #2)</title>
+    <author>
+    <id>7077654</id>
+    <name>Drew  Hayes</name>
+    </author>
+    <image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1558800484l/25920141._SX98_.jpg]]></image_url>
+    </best_book>
+    <books_count>5</books_count>
+    <original_publication_day>14</original_publication_day>
+    <original_publication_month>10</original_publication_month>
+    <original_publication_year>2015</original_publication_year>
+    <original_title></original_title>
+    <ratings_count>4524</ratings_count>
+    <ratings_sum>19286</ratings_sum>
+    <reviews_count>7098</reviews_count>
+    <text_reviews_count>257</text_reviews_count>
+    <average_rating></average_rating>
+    </work>
+
+    </series_work>
+    <series_work>
+    <id>831939</id>
+    <user_position>2</user_position>
+    <series>
+    <id>164322</id>
+    <title>
+    <![CDATA[
+        Fred, the Vampire Accountant
+    ]]>
+    </title>
+    <description>
+    <![CDATA[
+    ]]>
+    </description>
+    <note>
+    <![CDATA[
+    ]]>
+    </note>
+    <series_works_count>6</series_works_count>
+    <primary_work_count>6</primary_work_count>
+    <numbered>true</numbered>
+    </series>
+
+    <work>
+    <id>43892251</id>
+    <uri>kca://work/amzn1.gr.work.v1.EutKM7vzX_Uzkz8odF1dag</uri>
+    <best_book>
+    <id>24313624</id>
+    <title>Undeath and Taxes (Fred, the Vampire Accountant, #2)</title>
+    <author>
+    <id>7077654</id>
+    <name>Drew  Hayes</name>
+    </author>
+    <image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433275305l/24313624._SX98_.jpg]]></image_url>
+    </best_book>
+    <books_count>8</books_count>
+    <original_publication_day>26</original_publication_day>
+    <original_publication_month>7</original_publication_month>
+    <original_publication_year>2015</original_publication_year>
+    <original_title></original_title>
+    <ratings_count>3832</ratings_count>
+    <ratings_sum>16406</ratings_sum>
+    <reviews_count>6040</reviews_count>
+    <text_reviews_count>238</text_reviews_count>
+    <average_rating></average_rating>
+    </work>
+
+    </series_work>
+    <series_work>
+    <id>557849</id>
+    <user_position>1</user_position>
+    <series>
+    <id>115317</id>
+    <title>
+    <![CDATA[
+        Super Powereds
+    ]]>
+    </title>
+    <description>
+    <![CDATA[
+    ]]>
+    </description>
+    <note>
+    <![CDATA[
+    ]]>
+    </note>
+    <series_works_count>4</series_works_count>
+    <primary_work_count>4</primary_work_count>
+    <numbered>true</numbered>
+    </series>
+
+    <work>
+    <id>25037508</id>
+    <uri>kca://work/amzn1.gr.work.v1.FNf7f0IXdqhwUPqV8bWTYw</uri>
+    <best_book>
+    <id>17879100</id>
+    <title>Super Powereds: Year 1 (Super Powereds, #1)</title>
+    <author>
+    <id>7077654</id>
+    <name>Drew  Hayes</name>
+    </author>
+    <image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1368127021l/17879100._SX98_.jpg]]></image_url>
+    </best_book>
+    <books_count>7</books_count>
+    <original_publication_day>19</original_publication_day>
+    <original_publication_month>2</original_publication_month>
+    <original_publication_year>2013</original_publication_year>
+    <original_title></original_title>
+    <ratings_count>7016</ratings_count>
+    <ratings_sum>30616</ratings_sum>
+    <reviews_count>13039</reviews_count>
+    <text_reviews_count>489</text_reviews_count>
+    <average_rating></average_rating>
+    </work>
+
+    </series_work>
+    <series_work>
+    <id>978035</id>
+    <user_position>3</user_position>
+    <series>
+    <id>167002</id>
+    <title>
+    <![CDATA[
+        Spells, Swords, & Stealth
+    ]]>
+    </title>
+    <description>
+    <![CDATA[
+    ]]>
+    </description>
+    <note>
+    <![CDATA[
+    ]]>
+    </note>
+    <series_works_count>4</series_works_count>
+    <primary_work_count>4</primary_work_count>
+    <numbered>true</numbered>
+    </series>
+
+    <work>
+    <id>52708667</id>
+    <uri>kca://work/amzn1.gr.work.v1._2xf220O_tw7zPCoUbft0g</uri>
+    <best_book>
+    <id>32064513</id>
+    <title>Going Rogue (Spells, Swords, &amp; Stealth, #3)</title>
+    <author>
+    <id>7077654</id>
+    <name>Drew  Hayes</name>
+    </author>
+    <image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474117787l/32064513._SX98_.jpg]]></image_url>
+    </best_book>
+    <books_count>5</books_count>
+    <original_publication_day>19</original_publication_day>
+    <original_publication_month>10</original_publication_month>
+    <original_publication_year>2016</original_publication_year>
+    <original_title></original_title>
+    <ratings_count>3521</ratings_count>
+    <ratings_sum>15642</ratings_sum>
+    <reviews_count>5571</reviews_count>
+    <text_reviews_count>229</text_reviews_count>
+    <average_rating></average_rating>
+    </work>
+
+    </series_work>
+    <series_work>
+    <id>941467</id>
+    <user_position>3</user_position>
+    <series>
+    <id>164322</id>
+    <title>
+    <![CDATA[
+        Fred, the Vampire Accountant
+    ]]>
+    </title>
+    <description>
+    <![CDATA[
+    ]]>
+    </description>
+    <note>
+    <![CDATA[
+    ]]>
+    </note>
+    <series_works_count>6</series_works_count>
+    <primary_work_count>6</primary_work_count>
+    <numbered>true</numbered>
+    </series>
+
+    <work>
+    <id>51435088</id>
+    <uri>kca://work/amzn1.gr.work.v1.1k7Nr4mjIwU414FpP8fzCw</uri>
+    <best_book>
+    <id>30837531</id>
+    <title>Bloody Acquisitions (Fred, the Vampire Accountant, #3)</title>
+    <author>
+    <id>7077654</id>
+    <name>Drew  Hayes</name>
+    </author>
+    <image_url><![CDATA[https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png]]></image_url>
+    </best_book>
+    <books_count>7</books_count>
+    <original_publication_day>26</original_publication_day>
+    <original_publication_month>7</original_publication_month>
+    <original_publication_year>2016</original_publication_year>
+    <original_title>Bloody Acquisitions</original_title>
+    <ratings_count>2913</ratings_count>
+    <ratings_sum>12764</ratings_sum>
+    <reviews_count>4485</reviews_count>
+    <text_reviews_count>169</text_reviews_count>
+    <average_rating></average_rating>
+    </work>
+
+    </series_work>
+    <series_work>
+    <id>557850</id>
+    <user_position>2</user_position>
+    <series>
+    <id>115317</id>
+    <title>
+    <![CDATA[
+        Super Powereds
+    ]]>
+    </title>
+    <description>
+    <![CDATA[
+    ]]>
+    </description>
+    <note>
+    <![CDATA[
+    ]]>
+    </note>
+    <series_works_count>4</series_works_count>
+    <primary_work_count>4</primary_work_count>
+    <numbered>true</numbered>
+    </series>
+
+    <work>
+    <id>25310243</id>
+    <uri>kca://work/amzn1.gr.work.v1.-2qDN6xBwdZhsmXsQr9M5g</uri>
+    <best_book>
+    <id>18038373</id>
+    <title>Super Powereds: Year 2 (Super Powereds, #2)</title>
+    <author>
+    <id>7077654</id>
+    <name>Drew  Hayes</name>
+    </author>
+    <image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1383662482l/18038373._SX98_.jpg]]></image_url>
+    </best_book>
+    <books_count>7</books_count>
+    <original_publication_day>7</original_publication_day>
+    <original_publication_month>11</original_publication_month>
+    <original_publication_year>2013</original_publication_year>
+    <original_title></original_title>
+    <ratings_count>6010</ratings_count>
+    <ratings_sum>27331</ratings_sum>
+    <reviews_count>8291</reviews_count>
+    <text_reviews_count>247</text_reviews_count>
+    <average_rating></average_rating>
+    </work>
+
+    </series_work>
+    <series_work>
+    <id>779336</id>
+    <user_position>3</user_position>
+    <series>
+    <id>115317</id>
+    <title>
+    <![CDATA[
+        Super Powereds
+    ]]>
+    </title>
+    <description>
+    <![CDATA[
+    ]]>
+    </description>
+    <note>
+    <![CDATA[
+    ]]>
+    </note>
+    <series_works_count>4</series_works_count>
+    <primary_work_count>4</primary_work_count>
+    <numbered>true</numbered>
+    </series>
+
+    <work>
+    <id>44947592</id>
+    <uri>kca://work/amzn1.gr.work.v1.PUPiG7Pu1R87an7oYZXT_Q</uri>
+    <best_book>
+    <id>25230716</id>
+    <title>Super Powereds: Year 3 (Super Powereds, #3)</title>
+    <author>
+    <id>7077654</id>
+    <name>Drew  Hayes</name>
+    </author>
+    <image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1427480376l/25230716._SX98_.jpg]]></image_url>
+    </best_book>
+    <books_count>7</books_count>
+    <original_publication_day>15</original_publication_day>
+    <original_publication_month>6</original_publication_month>
+    <original_publication_year>2015</original_publication_year>
+    <original_title></original_title>
+    <ratings_count>5299</ratings_count>
+    <ratings_sum>24364</ratings_sum>
+    <reviews_count>7509</reviews_count>
+    <text_reviews_count>195</text_reviews_count>
+    <average_rating></average_rating>
+    </work>
+
+    </series_work>
+    <series_work>
+    <id>991774</id>
+    <user_position>4</user_position>
+    <series>
+    <id>167002</id>
+    <title>
+    <![CDATA[
+        Spells, Swords, & Stealth
+    ]]>
+    </title>
+    <description>
+    <![CDATA[
+    ]]>
+    </description>
+    <note>
+    <![CDATA[
+    ]]>
+    </note>
+    <series_works_count>4</series_works_count>
+    <primary_work_count>4</primary_work_count>
+    <numbered>true</numbered>
+    </series>
+
+    <work>
+    <id>53826473</id>
+    <uri>kca://work/amzn1.gr.work.v1.rySibgUInY0chs1GyWVucA</uri>
+    <best_book>
+    <id>42872185</id>
+    <title>Siege Tactics (Spells, Swords, &amp; Stealth, #4)</title>
+    <author>
+    <id>7077654</id>
+    <name>Drew  Hayes</name>
+    </author>
+    <image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1542719930l/42872185._SX98_.jpg]]></image_url>
+    </best_book>
+    <books_count>5</books_count>
+    <original_publication_day>18</original_publication_day>
+    <original_publication_month>12</original_publication_month>
+    <original_publication_year>2018</original_publication_year>
+    <original_title></original_title>
+    <ratings_count>1925</ratings_count>
+    <ratings_sum>8448</ratings_sum>
+    <reviews_count>3787</reviews_count>
+    <text_reviews_count>141</text_reviews_count>
+    <average_rating></average_rating>
+    </work>
+
+    </series_work>
+    <series_work>
+    <id>1046951</id>
+    <user_position>4</user_position>
+    <series>
+    <id>164322</id>
+    <title>
+    <![CDATA[
+        Fred, the Vampire Accountant
+    ]]>
+    </title>
+    <description>
+    <![CDATA[
+    ]]>
+    </description>
+    <note>
+    <![CDATA[
+    ]]>
+    </note>
+    <series_works_count>6</series_works_count>
+    <primary_work_count>6</primary_work_count>
+    <numbered>true</numbered>
+    </series>
+
+    <work>
+    <id>54970878</id>
+    <uri>kca://work/amzn1.gr.work.v1.0D-J7JexjzgVc8r4fr-UhQ</uri>
+    <best_book>
+    <id>33980680</id>
+    <title>The Fangs of Freelance (Fred, the Vampire Accountant, #4)</title>
+    <author>
+    <id>7077654</id>
+    <name>Drew  Hayes</name>
+    </author>
+    <image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1500938877l/33980680._SX98_.jpg]]></image_url>
+    </best_book>
+    <books_count>7</books_count>
+    <original_publication_day>25</original_publication_day>
+    <original_publication_month>7</original_publication_month>
+    <original_publication_year>2017</original_publication_year>
+    <original_title></original_title>
+    <ratings_count>2431</ratings_count>
+    <ratings_sum>10647</ratings_sum>
+    <reviews_count>3868</reviews_count>
+    <text_reviews_count>140</text_reviews_count>
+    <average_rating></average_rating>
+    </work>
+
+    </series_work>
+    <series_work>
+    <id>1066623</id>
+    <user_position>4</user_position>
+    <series>
+    <id>115317</id>
+    <title>
+    <![CDATA[
+        Super Powereds
+    ]]>
+    </title>
+    <description>
+    <![CDATA[
+    ]]>
+    </description>
+    <note>
+    <![CDATA[
+    ]]>
+    </note>
+    <series_works_count>4</series_works_count>
+    <primary_work_count>4</primary_work_count>
+    <numbered>true</numbered>
+    </series>
+
+    <work>
+    <id>54145261</id>
+    <uri>kca://work/amzn1.gr.work.v1.2f5MUBhY5a715CdpUdvq9g</uri>
+    <best_book>
+    <id>33395830</id>
+    <title>Super Powereds: Year 4 (Super Powereds, #4)</title>
+    <author>
+    <id>7077654</id>
+    <name>Drew  Hayes</name>
+    </author>
+    <image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1520845218l/33395830._SX98_.jpg]]></image_url>
+    </best_book>
+    <books_count>6</books_count>
+    <original_publication_day>20</original_publication_day>
+    <original_publication_month>2</original_publication_month>
+    <original_publication_year>2018</original_publication_year>
+    <original_title></original_title>
+    <ratings_count>3923</ratings_count>
+    <ratings_sum>18470</ratings_sum>
+    <reviews_count>6167</reviews_count>
+    <text_reviews_count>317</text_reviews_count>
+    <average_rating></average_rating>
+    </work>
+
+    </series_work>
+    <series_work>
+    <id>1273756</id>
+    <user_position>5</user_position>
+    <series>
+    <id>164322</id>
+    <title>
+    <![CDATA[
+        Fred, the Vampire Accountant
+    ]]>
+    </title>
+    <description>
+    <![CDATA[
+    ]]>
+    </description>
+    <note>
+    <![CDATA[
+    ]]>
+    </note>
+    <series_works_count>6</series_works_count>
+    <primary_work_count>6</primary_work_count>
+    <numbered>true</numbered>
+    </series>
+
+    <work>
+    <id>63706581</id>
+    <uri>kca://work/amzn1.gr.work.v1._73z9DiSj-10Xk6FGhqSFA</uri>
+    <best_book>
+    <id>40881303</id>
+    <title>Deadly Assessments (Fred, the Vampire Accountant #5)</title>
+    <author>
+    <id>7077654</id>
+    <name>Drew  Hayes</name>
+    </author>
+    <image_url><![CDATA[https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png]]></image_url>
+    </best_book>
+    <books_count>6</books_count>
+    <original_publication_day>31</original_publication_day>
+    <original_publication_month>7</original_publication_month>
+    <original_publication_year>2018</original_publication_year>
+    <original_title></original_title>
+    <ratings_count>1935</ratings_count>
+    <ratings_sum>8584</ratings_sum>
+    <reviews_count>3144</reviews_count>
+    <text_reviews_count>141</text_reviews_count>
+    <average_rating></average_rating>
+    </work>
+
+    </series_work>
+    <series_work>
+    <id>1532945</id>
+    <user_position>6</user_position>
+    <series>
+    <id>164322</id>
+    <title>
+    <![CDATA[
+        Fred, the Vampire Accountant
+    ]]>
+    </title>
+    <description>
+    <![CDATA[
+    ]]>
+    </description>
+    <note>
+    <![CDATA[
+    ]]>
+    </note>
+    <series_works_count>6</series_works_count>
+    <primary_work_count>6</primary_work_count>
+    <numbered>true</numbered>
+    </series>
+
+    <work>
+    <id>74297499</id>
+    <uri>kca://work/amzn1.gr.work.v3.xxNa2cEpV-fR5XGk</uri>
+    <best_book>
+    <id>48904391</id>
+    <title>Undeading Bells  (Fred, the Vampire Accountant #6)</title>
+    <author>
+    <id>7077654</id>
+    <name>Drew  Hayes</name>
+    </author>
+    <image_url><![CDATA[https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png]]></image_url>
+    </best_book>
+    <books_count>7</books_count>
+    <original_publication_day>17</original_publication_day>
+    <original_publication_month>12</original_publication_month>
+    <original_publication_year>2019</original_publication_year>
+    <original_title></original_title>
+    <ratings_count>1032</ratings_count>
+    <ratings_sum>4604</ratings_sum>
+    <reviews_count>1878</reviews_count>
+    <text_reviews_count>88</text_reviews_count>
+    <average_rating></average_rating>
+    </work>
+
+    </series_work>
+
+    </series_works>
+
+    </GoodreadsResponse>

@@ -1,0 +1,438 @@
+<GoodreadsResponse>
+  <Request>
+    <authentication>true</authentication>
+      <key><![CDATA[aMZDi8wrgVAaHtyOUOCjug]]></key>
+    <method><![CDATA[author_show]]></method>
+  </Request>
+  <author>
+  <id>42705</id>
+  <name>Andy Hopp</name>
+  <link><![CDATA[https://www.goodreads.com/author/show/42705.Andy_Hopp]]></link>
+  <fans_count type="integer">19</fans_count>
+  <author_followers_count type="integer">19</author_followers_count>
+  <large_image_url><![CDATA[https://images.gr-assets.com/authors/1442451659p7/42705.jpg]]></large_image_url>
+  <image_url><![CDATA[https://images.gr-assets.com/authors/1442451659p5/42705.jpg]]></image_url>
+  <small_image_url><![CDATA[https://images.gr-assets.com/authors/1442451659p2/42705.jpg]]></small_image_url>
+  <about></about>
+  <influences></influences>
+  <works_count>9</works_count>
+  <gender></gender>
+  <hometown></hometown>
+  <born_at></born_at>
+  <died_at></died_at>
+  <goodreads_author>true</goodreads_author>
+    <user>
+  <id type="integer">16666557</id>
+</user>
+
+
+    <books>
+      <book>
+  <id type="integer">75225</id>
+  <isbn>0976360152</isbn>
+  <isbn13>9780976360155</isbn13>
+  <text_reviews_count type="integer">3</text_reviews_count>
+  <uri>kca://book/amzn1.gr.book.v1.M6X0HsqRY7jjWPGABUX1dg</uri>
+  <title>Low Life (Savage Worlds; S2P10007)</title>
+  <title_without_series>Low Life</title_without_series>
+  <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+  <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+  <large_image_url/>
+  <link>https://www.goodreads.com/book/show/75225.Low_Life</link>
+  <num_pages></num_pages>
+  <format></format>
+  <edition_information/>
+  <publisher></publisher>
+  <publication_day></publication_day>
+  <publication_year></publication_year>
+  <publication_month></publication_month>
+  <average_rating>3.97</average_rating>
+  <ratings_count>30</ratings_count>
+  <description></description>
+<authors>
+<author>
+<id>42705</id>
+<name>Andy Hopp</name>
+<role></role>
+<image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1442451659p5/42705.jpg]]>
+</image_url>
+<small_image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1442451659p2/42705.jpg]]>
+</small_image_url>
+<link><![CDATA[https://www.goodreads.com/author/show/42705.Andy_Hopp]]></link>
+<average_rating>4.02</average_rating>
+<ratings_count>215</ratings_count>
+<text_reviews_count>37</text_reviews_count>
+</author>
+</authors>
+  <published></published>
+<work>  <id>72764</id>
+  <uri>kca://work/amzn1.gr.work.v1.xixOB-aFVzE6I57sQ_VSaw</uri>
+</work></book>
+
+
+      <book>
+  <id type="integer">16719164</id>
+  <isbn>0985659106</isbn>
+  <isbn13>9780985659103</isbn13>
+  <text_reviews_count type="integer">5</text_reviews_count>
+  <uri>kca://book/amzn1.gr.book.v1.XHx0KdzRk9OOAkK0kxVxsw</uri>
+  <title>Whole Hole Volume 1 Keister Island</title>
+  <title_without_series>Whole Hole Volume 1 Keister Island</title_without_series>
+  <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1358958480l/16719164._SX98_.jpg</image_url>
+  <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1358958480l/16719164._SY75_.jpg</small_image_url>
+  <large_image_url/>
+  <link>https://www.goodreads.com/book/show/16719164-whole-hole-volume-1-keister-island</link>
+  <num_pages>223</num_pages>
+  <format>Hardcover</format>
+  <edition_information/>
+  <publisher>Mutha Oith Creations</publisher>
+  <publication_day>30</publication_day>
+  <publication_year>2013</publication_year>
+  <publication_month>1</publication_month>
+  <average_rating>4.70</average_rating>
+  <ratings_count>10</ratings_count>
+  <description>The Whole Hole – A Gadabout’s Guide to Mutha Oith – Vol. 01: Keister Island&lt;br /&gt;&lt;br /&gt;The first in a series of guidebooks exploring the lands, peeps, beasts, and ways of Mutha Oith.&lt;br /&gt;&lt;br /&gt;Tash Shardborn has this to say:&lt;br /&gt;&lt;br /&gt; “In a very real sense, the Keister is the island. But in an equally, and more accurately, real sense the island is the island. Witness the cosmopolitan jumble of Floom, the aromatic mysticisms of the Garden of Smellemental Glee, the monumental juts and caverns of the Knobby Rumple… Behold dank rites and unspeakable atrocities as you scramble your way through the lichenous strew of Stan’s Rug. Prance the loamy frolic of the Soul Patch. Wallow in the ichorous murk of the Imple Slew. Wonder what all those statues are about. Do some other stuff. Try not to get eaten.”&lt;br /&gt;&lt;br /&gt; The Whole Hole – A Gadabout’s Guide to Mutha Oith, Volume 01: Keister Island is the first in a series of guidebooks (that’s what “Volume 01” means) designed to immerse the reader within and among the places, peeps, beasts, and happenings of the various realms of Mutha Oith. Join intrepid gadabout Toucanacondor Flaminguez as he tours Keister Island. You’ll explore dozens of locales, meet hundreds of peeps, examine new religions, gawp in awe at wondrous magics, and run in terror from a bunsload of horrifying monstrosities.&lt;br /&gt;&lt;br /&gt;Here you’ll investigate the Fundamental nature of all things, dabble in smellcasting at the Garden of Smellemental Glee, chug suds with Floom’s elite, and marvel at the bottomless Keister of Gawd. There’s new Holy Crap, new Edges and Hindrances, New PC species, new setting rules, and twenty pages of new monsters. Seriously, stop reading the description and just buy the goosin’ thing already.&lt;br /&gt;&lt;br /&gt;The Savage Worlds rules system by Pinnacle Entertainment Group is required to play the game, but not necessarily to enjoy the book.&lt;br /&gt;&lt;br /&gt;224 pages&lt;br /&gt;Full Color&lt;br /&gt;&lt;br /&gt;Dredged from the muck by Andy Hopp</description>
+<authors>
+<author>
+<id>42705</id>
+<name>Andy Hopp</name>
+<role></role>
+<image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1442451659p5/42705.jpg]]>
+</image_url>
+<small_image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1442451659p2/42705.jpg]]>
+</small_image_url>
+<link><![CDATA[https://www.goodreads.com/author/show/42705.Andy_Hopp]]></link>
+<average_rating>4.02</average_rating>
+<ratings_count>215</ratings_count>
+<text_reviews_count>37</text_reviews_count>
+</author>
+</authors>
+  <published>2013</published>
+<work>  <id>22958699</id>
+  <uri>kca://work/amzn1.gr.work.v1.KiD46A-q-MddnIcbLldF2g</uri>
+</work></book>
+
+
+      <book>
+  <id type="integer">37564489</id>
+  <isbn nil="true"/>
+  <isbn13>9780985659127</isbn13>
+  <text_reviews_count type="integer">2</text_reviews_count>
+  <uri>kca://book/amzn1.gr.book.v1.PQHLtMkdtE3nx6cuPP1TiQ</uri>
+  <title>Alphabeast Soup</title>
+  <title_without_series>Alphabeast Soup</title_without_series>
+  <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1513640898l/37564489._SX98_.jpg</image_url>
+  <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1513640898l/37564489._SY75_.jpg</small_image_url>
+  <large_image_url/>
+  <link>https://www.goodreads.com/book/show/37564489-alphabeast-soup</link>
+  <num_pages>72</num_pages>
+  <format>Hardcover</format>
+  <edition_information>Limited Collector's Edition</edition_information>
+  <publisher>Mutha Oith Creations</publisher>
+  <publication_day/>
+  <publication_year>2015</publication_year>
+  <publication_month/>
+  <average_rating>5.00</average_rating>
+  <ratings_count>5</ratings_count>
+  <description>Alphabeast Soup follows the Whimsical adventures of an intrepid wizard and his loyal team of hapless minions as they collect the bizarre ingredients of a mystical potion in hopes of curing the tummy troubles of a gluttonous king. Along the way they encounter such unusual creatures as:&lt;br /&gt;&lt;br /&gt;The frost-lurking Ubbubb, who slides over snowy hills on a sled made of minion hide.&lt;br /&gt;&lt;br /&gt;The incorrigibly cute Flounce, whose toenails drip with angry toxins.&lt;br /&gt;&lt;br /&gt;The golden-throated Quoop, with a song so lovely it alters the very fabric of reality.&lt;br /&gt;&lt;br /&gt;The dastardly Zumtho, whose breath of death destroys minions by the horde.&lt;br /&gt;&lt;br /&gt;The Joffle-o-ninecheeks. You don't want to know about the Joffle-o-ninecheeks. Trust me.&lt;br /&gt;&lt;br /&gt;...and an entire menagerie of strange and unique beasts.</description>
+<authors>
+<author>
+<id>42705</id>
+<name>Andy Hopp</name>
+<role></role>
+<image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1442451659p5/42705.jpg]]>
+</image_url>
+<small_image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1442451659p2/42705.jpg]]>
+</small_image_url>
+<link><![CDATA[https://www.goodreads.com/author/show/42705.Andy_Hopp]]></link>
+<average_rating>4.02</average_rating>
+<ratings_count>215</ratings_count>
+<text_reviews_count>37</text_reviews_count>
+</author>
+</authors>
+  <published>2015</published>
+<work>  <id>59177534</id>
+  <uri>kca://work/amzn1.gr.work.v1.EEVJldW78iiOftzMQ2mgQQ</uri>
+</work></book>
+
+
+      <book>
+  <id type="integer">27074680</id>
+  <isbn>0985659114</isbn>
+  <isbn13>9780985659110</isbn13>
+  <text_reviews_count type="integer">1</text_reviews_count>
+  <uri>kca://book/amzn1.gr.book.v1.LR26lvIZmMbUPOyj0nxMzw</uri>
+  <title>Low Life: The Rise of the Lowly</title>
+  <title_without_series>Low Life: The Rise of the Lowly</title_without_series>
+  <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1444498845l/27074680._SX98_.jpg</image_url>
+  <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1444498845l/27074680._SX50_.jpg</small_image_url>
+  <large_image_url/>
+  <link>https://www.goodreads.com/book/show/27074680-low-life</link>
+  <num_pages>280</num_pages>
+  <format>Hardcover</format>
+  <edition_information>ReDredged</edition_information>
+  <publisher>Mutha Oith Creations</publisher>
+  <publication_day>30</publication_day>
+  <publication_year>2015</publication_year>
+  <publication_month>1</publication_month>
+  <average_rating>5.00</average_rating>
+  <ratings_count>4</ratings_count>
+  <description>GAZILLIONS of years have passed since the Time of the Flush and the extinction of the vaunted Hoomanrace. Now, After the Wipe, the descendants of cockroaches, snack cakes, worms, and even lowlier things rule the Oith!&lt;br /&gt;&lt;br /&gt;Waggle the arcane zazz of hocus pokery, dementalism, smellcasting, holy rolling, danged wrangling, and contanimation! Battle hideous things that want to eat you, risen from the rubble of ancient civilizations. Enjoy a light lunch at the Primordial Soup Kitchen...&lt;br /&gt;&lt;br /&gt;Audacious times are upon us! Lost lands and forgotten civilizations await discovery. Terrible monsters and grand treasures lurk behind every rock. There are hoards to nab, foes to stab, and tales to blab. these are the days of Low adventure, where destiny is shaped not by circumstance of birth, but by strength of snazz, zazz, and jazz. It’s a bold world for bold peeps, where life is relatively inexpensive and even the lowliest werm can become a king by his own mop.&lt;br /&gt;&lt;br /&gt;Are you croach enough to follow your destiny? Do you have the nuggets to take your rightful place among Oith’s most valiant heroes?&lt;br /&gt;&lt;br /&gt;If so, strap on your esophagator hide shield, pick up your battle spork, mount your slog, whisper a prayer to Jelvis, kiss your larvae goodbye, and open the goosin’ book. The muck-riddled road to LOW ADVENTURE stands before you...</description>
+<authors>
+<author>
+<id>42705</id>
+<name>Andy Hopp</name>
+<role></role>
+<image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1442451659p5/42705.jpg]]>
+</image_url>
+<small_image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1442451659p2/42705.jpg]]>
+</small_image_url>
+<link><![CDATA[https://www.goodreads.com/author/show/42705.Andy_Hopp]]></link>
+<average_rating>4.02</average_rating>
+<ratings_count>215</ratings_count>
+<text_reviews_count>37</text_reviews_count>
+</author>
+</authors>
+  <published>2015</published>
+<work>  <id>47116915</id>
+  <uri>kca://work/amzn1.gr.work.v1.X7JkvJnKqzrwDG3npZZWlA</uri>
+</work></book>
+
+
+      <book>
+  <id type="integer">12715471</id>
+  <isbn>1589781252</isbn>
+  <isbn13>9781589781252</isbn13>
+  <text_reviews_count type="integer">5</text_reviews_count>
+  <uri>kca://book/amzn1.gr.book.v1.2616T4A2M1_FNoMhpBnQBA</uri>
+  <title>Cliffourd the Big Red God</title>
+  <title_without_series>Cliffourd the Big Red God</title_without_series>
+  <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1333482088l/12715471._SX98_.jpg</image_url>
+  <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1333482088l/12715471._SX50_.jpg</small_image_url>
+  <large_image_url/>
+  <link>https://www.goodreads.com/book/show/12715471-cliffourd-the-big-red-god</link>
+  <num_pages></num_pages>
+  <format>Hardcover</format>
+  <edition_information/>
+  <publisher>Atlas Games</publisher>
+  <publication_day>20</publication_day>
+  <publication_year>2011</publication_year>
+  <publication_month>7</publication_month>
+  <average_rating>3.82</average_rating>
+  <ratings_count>34</ratings_count>
+  <description>Renowned Cthulhu Mythos aficionado Kenneth Hite retells H P Lovecraft's classic "The Dunwich Horror" in this story of childhood terror, with adorable* illustrations by Andy Hopp. Cliffourd the Big Red God features 32 pages of full-color illustration, and is sure to be a hit with the newest generation of Lovecraft fans and their parents. It is the third in our Mini Mythos series (after Where the Deep Ones Are and The Antarctic Express).</description>
+<authors>
+<author>
+<id>85377</id>
+<name>Kenneth Hite</name>
+<role></role>
+<image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1517749564p5/85377.jpg]]>
+</image_url>
+<small_image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1517749564p2/85377.jpg]]>
+</small_image_url>
+<link><![CDATA[https://www.goodreads.com/author/show/85377.Kenneth_Hite]]></link>
+<average_rating>4.05</average_rating>
+<ratings_count>8083</ratings_count>
+<text_reviews_count>519</text_reviews_count>
+</author>
+</authors>
+  <published>2011</published>
+<work>  <id>17850039</id>
+  <uri>kca://work/amzn1.gr.work.v1.FksK3JyXdthIwvd1QsgeIQ</uri>
+</work></book>
+
+
+      <book>
+  <id type="integer">10923921</id>
+  <isbn>1460924789</isbn>
+  <isbn13>9781460924785</isbn13>
+  <text_reviews_count type="integer">5</text_reviews_count>
+  <uri>kca://book/amzn1.gr.book.v1.8VLVCmKgfr6-6n_Oc5qzJQ</uri>
+  <title>Passageway</title>
+  <title_without_series>Passageway</title_without_series>
+  <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+  <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+  <large_image_url/>
+  <link>https://www.goodreads.com/book/show/10923921-passageway</link>
+  <num_pages>216</num_pages>
+  <format>Paperback</format>
+  <edition_information/>
+  <publisher>Createspace</publisher>
+  <publication_day>15</publication_day>
+  <publication_year>2011</publication_year>
+  <publication_month>3</publication_month>
+  <average_rating>4.00</average_rating>
+  <ratings_count>8</ratings_count>
+  <description>When an archaeological dig goes horribly wrong, the team is trapped in an alternate world where evil awaits them at every turn. Find out who will survive the Passageway! From the author of supernatural vampire thriller "Darkened Hills" comes an unforgettable tale that spans four continents and takes the reader to the very realm of Hell itself. Skeleton warriors, zombies, other undead beings and werewolves are all very real inside the Passageway! Part H.P. Lovecraft and part Indiana Jones, this deadly tale will keep you guessing and wondering which path to take. Passageway will leave you breathless to the end!</description>
+<authors>
+<author>
+<id>547254</id>
+<name>Gary Lee Vincent</name>
+<role></role>
+<image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1287425740p5/547254.jpg]]>
+</image_url>
+<small_image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1287425740p2/547254.jpg]]>
+</small_image_url>
+<link><![CDATA[https://www.goodreads.com/author/show/547254.Gary_Lee_Vincent]]></link>
+<average_rating>4.11</average_rating>
+<ratings_count>151</ratings_count>
+<text_reviews_count>47</text_reviews_count>
+</author>
+</authors>
+  <published>2011</published>
+<work>  <id>15840825</id>
+  <uri>kca://work/amzn1.gr.work.v1.FH8Gkhlad_rt7yRpOSYUTw</uri>
+</work></book>
+
+
+      <book>
+  <id type="integer">7796959</id>
+  <isbn>1568823215</isbn>
+  <isbn13>9781568823218</isbn13>
+  <text_reviews_count type="integer">0</text_reviews_count>
+  <uri>kca://book/amzn1.gr.book.v1.GjfOpezg42ZXGpLt1-RUrA</uri>
+  <title>Arkham Now: Revisiting the Legend-Haunted City</title>
+  <title_without_series>Arkham Now: Revisiting the Legend-Haunted City</title_without_series>
+  <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+  <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+  <large_image_url/>
+  <link>https://www.goodreads.com/book/show/7796959-arkham-now</link>
+  <num_pages>176</num_pages>
+  <format>Paperback</format>
+  <edition_information/>
+  <publisher>Chaosium</publisher>
+  <publication_day>1</publication_day>
+  <publication_year>2010</publication_year>
+  <publication_month>2</publication_month>
+  <average_rating>3.38</average_rating>
+  <ratings_count>8</ratings_count>
+  <description>[CALL OF CTHULHU ROLEPLAYING] "Arkham Now" updates to modern times the famous and fabled city of Arkham for the "Call of Cthulhu" roleplaying game. Most residents believe there is only one horror lurking in this legendary haunted town -- the urban sprawl slowly eroding Arkham's old New England beauty. Rushing by neon signs and mega-marts on a quest to obtain even more material possessions, no one has time to notice the more disturbing, underlying qualities of the city -- the grotesque vegetation sprouting in some places, the sometimes-odd taste from the reservoir's drinking water, the disturbingly high rate of birth defects, and the too-frequent child abductions.</description>
+<authors>
+<author>
+<id>3397988</id>
+<name>Brian Courtemanche</name>
+<role></role>
+<image_url nophoto='true'>
+<![CDATA[https://s.gr-assets.com/assets/nophoto/user/u_200x266-e183445fd1a1b5cc7075bb1cf7043306.png]]>
+</image_url>
+<small_image_url nophoto='true'>
+<![CDATA[https://s.gr-assets.com/assets/nophoto/user/u_50x66-632230dc9882b4352d753eedf9396530.png]]>
+</small_image_url>
+<link><![CDATA[https://www.goodreads.com/author/show/3397988.Brian_Courtemanche]]></link>
+<average_rating>3.89</average_rating>
+<ratings_count>110</ratings_count>
+<text_reviews_count>14</text_reviews_count>
+</author>
+</authors>
+  <published>2010</published>
+<work>  <id>10766788</id>
+  <uri>kca://work/amzn1.gr.work.v1.UXYfGppRQc5Oue3lGOodLQ</uri>
+</work></book>
+
+
+      <book>
+  <id type="integer">4170816</id>
+  <isbn>1589781031</isbn>
+  <isbn13>9781589781030</isbn13>
+  <text_reviews_count type="integer">15</text_reviews_count>
+  <uri>kca://book/amzn1.gr.book.v1.V110ikPsOZjRNu80lJMrvg</uri>
+  <title>Where the Deep Ones Are</title>
+  <title_without_series>Where the Deep Ones Are</title_without_series>
+  <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+  <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+  <large_image_url/>
+  <link>https://www.goodreads.com/book/show/4170816-where-the-deep-ones-are</link>
+  <num_pages>32</num_pages>
+  <format>Hardcover</format>
+  <edition_information/>
+  <publisher>Atlas Games</publisher>
+  <publication_day>1</publication_day>
+  <publication_year>2009</publication_year>
+  <publication_month>9</publication_month>
+  <average_rating>4.01</average_rating>
+  <ratings_count>116</ratings_count>
+  <description></description>
+<authors>
+<author>
+<id>85377</id>
+<name>Kenneth Hite</name>
+<role></role>
+<image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1517749564p5/85377.jpg]]>
+</image_url>
+<small_image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1517749564p2/85377.jpg]]>
+</small_image_url>
+<link><![CDATA[https://www.goodreads.com/author/show/85377.Kenneth_Hite]]></link>
+<average_rating>4.05</average_rating>
+<ratings_count>8083</ratings_count>
+<text_reviews_count>519</text_reviews_count>
+</author>
+</authors>
+  <published>2009</published>
+<work>  <id>4218126</id>
+  <uri>kca://work/amzn1.gr.work.v1.3llq1C9s2atTXR3FsQeFHA</uri>
+</work></book>
+
+
+      <book>
+  <id type="integer">7431489</id>
+  <isbn>0972624112</isbn>
+  <isbn13>9780972624114</isbn13>
+  <text_reviews_count type="integer">0</text_reviews_count>
+  <uri>kca://book/amzn1.gr.book.v1.C82Cj_ZdXXNkjmBVwWhrEw</uri>
+  <title>Monsters of the Endless Dark</title>
+  <title_without_series>Monsters of the Endless Dark</title_without_series>
+  <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+  <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+  <large_image_url/>
+  <link>https://www.goodreads.com/book/show/7431489-monsters-of-the-endless-dark</link>
+  <num_pages>64</num_pages>
+  <format>Paperback</format>
+  <edition_information/>
+  <publisher>Impressions</publisher>
+  <publication_day>1</publication_day>
+  <publication_year>2003</publication_year>
+  <publication_month>8</publication_month>
+  <average_rating>0.0</average_rating>
+  <ratings_count>0</ratings_count>
+  <description></description>
+<authors>
+<author>
+<id>3271565</id>
+<name>Jon Pollom</name>
+<role></role>
+<image_url nophoto='true'>
+<![CDATA[https://s.gr-assets.com/assets/nophoto/user/u_200x266-e183445fd1a1b5cc7075bb1cf7043306.png]]>
+</image_url>
+<small_image_url nophoto='true'>
+<![CDATA[https://s.gr-assets.com/assets/nophoto/user/u_50x66-632230dc9882b4352d753eedf9396530.png]]>
+</small_image_url>
+<link><![CDATA[https://www.goodreads.com/author/show/3271565.Jon_Pollom]]></link>
+<average_rating>0.0</average_rating>
+<ratings_count>0</ratings_count>
+<text_reviews_count>0</text_reviews_count>
+</author>
+</authors>
+  <published>2003</published>
+<work>  <id>9413392</id>
+  <uri>kca://work/amzn1.gr.work.v1.LMORAIEaOKeeiNZXBwRx0g</uri>
+</work></book>
+
+
+    </books>
+</author>
+
+</GoodreadsResponse>

@@ -1,6 +1,6 @@
-const { Author } = require('./author');
+const { AuthorRef } = require('./author-ref');
 const { ImageURL } = require('./image-url');
-const { Work } = require('./work');
+const { WorkRef } = require('./work-ref');
 
 class Book {
   constructor(data) {
@@ -12,9 +12,9 @@ class Book {
     this.uri = data.uri[0];
     this.title = data.title[0];
     this.title_without_series = data.title_without_series[0];
-    this.image_url = new ImageURL({uri: data.image_url[0]});
-    this.small_image_url = new ImageURL({uri: data.small_image_url[0]});
-    this.large_image_url = new ImageURL({uri: data.large_image_url[0]});
+    this.image_url = new ImageURL(data.image_url[0]);
+    this.small_image_url = new ImageURL(data.small_image_url[0]);
+    this.large_image_url = new ImageURL(data.large_image_url[0]);
     this.link = data.link[0];
     this.num_pages = data.num_pages[0];
     this.format = data.format[0];
@@ -25,10 +25,10 @@ class Book {
     this.publication_month = data.publication_month[0];
     this.average_rating = parseFloat(data.average_rating[0]);
     this.ratings_count = parseInt(data.ratings_count[0], 10);
-    this.description = data.description[0];
+    this.description = data.description[0] ? data.description[0].trim() : '';
     this.published = data.published[0];
-    this.work = new Work(data.work[0]);
-    this.authors = data.authors[0].author.map(author => new Author(author));
+    this.workRef = new WorkRef(data.work[0]);
+    this.authors = data.authors[0].author.map(author => new AuthorRef(author));
   }
 }
 

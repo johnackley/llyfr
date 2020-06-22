@@ -1,27 +1,36 @@
+const { GRAPI, Pagination } = require('./api');
+
+// TODO update this file
 const { Author } = require('./author');
+const { AuthorRef } = require('./author-ref');
+const { BestBook } = require('./best-book');
 const { Book } = require('./book');
 const { ImageURL } = require('./image-url');
-const { GRAPI } = require('./api');
-const { Pagination } = require('./pagination');
-const { Parser } = require('./parser');
-const { Response } = require('./response');
+const { Parser } = require('./api/parser');
 const { Review } = require('./review');
+const { SeriesList } = require('./series-list');
+const { SeriesWork } = require('./series-work');
 const { Shelf } = require('./shelf');
-const { ShelfList } = require('./shelf-list');
 const { ShelfRef } = require('./shelf-ref');
+const { UserShelf } = require('./user-shelf');
 const { Work } = require('./work');
+const { WorkRef } = require('./work-ref');
 
 module.exports = {
-  Author,
-  Book,
-  ImageURL,
   GRAPI,
   Pagination,
+  Author,
+  AuthorRef,
+  BestBook,
+  Book,
+  ImageURL,
   Parser,
-  Response,
   Review,
+  SeriesList,
+  SeriesWork,
   Shelf,
-  ShelfList,
   ShelfRef,
-  Work
+  UserShelf,
+  Work,
+  WorkRef,  
 }

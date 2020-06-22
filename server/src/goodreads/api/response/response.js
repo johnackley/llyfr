@@ -1,7 +1,3 @@
-const { Pagination } = require('./pagination');
-const { ShelfRef } = require('./shelf-ref');
-const { Review } = require('./review');
-
 class Response {
   constructor(data) {
     // console.log('response data:', data);
@@ -9,6 +5,8 @@ class Response {
     this.key = data.GoodreadsResponse.Request[0].key[0];
     this.method = data.GoodreadsResponse.Request[0].method[0];
     this.payload = data.GoodreadsResponse;
+    delete this.payload.Request;
+    // console.log('parsed Response:', this);
   }
 }
 
