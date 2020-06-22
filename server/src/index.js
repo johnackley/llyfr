@@ -1,7 +1,7 @@
 require('dotenv').config();
 const { GRAPI } = require('./goodreads');
 
-const grapi = new GRAPI({ dumpXML: true, noparse: true });
+const grapi = new GRAPI({ dumpXML: false, noparse: false });
 
 const DREW_HAYES_ID = 7077654;
 const ANDY_HOPP_ID = 42705;

@@ -6,8 +6,12 @@ class SeriesWork {
     // console.log('series-work data:', data);
     this.id = data.id[0];
     this.user_position = data.user_position[0];
-    this.series = new Series(data.series[0]);
-    this.work = new Work(data.work[0]);
+    if (data.hasOwnProperty('series')) {
+      this.series = new Series(data.series[0]);
+    }
+    if (data.hasOwnProperty('work')) {
+      this.work = new Work(data.work[0]);
+    }
     // console.log('parsed series-work:', this);
   }
 }
