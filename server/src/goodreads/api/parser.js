@@ -12,18 +12,19 @@ class Parser {
   }
 
   parse(response /* : Response */) {
+    let ret = undefined;
     switch (response.method) {
-      case 'author_list': return new AuthorListResponse(response);
-      case 'author_show': return new AuthorShowResponse(response);
-      case 'review_list': return new ReviewListResponse(response);
-      case 'series_list': return new SeriesListResponse(response);
-      case 'series_show': return new SeriesShowResponse(response);
-      case 'series_work': return new SeriesWorkResponse(response);
-      case 'shelf_list': return new ShelfListResponse(response);
+      case 'author_list': ret = new AuthorListResponse(response); break;
+      case 'author_show': ret = new AuthorShowResponse(response); break;
+      case 'review_list': ret = new ReviewListResponse(response); break;
+      case 'series_list': ret = new SeriesListResponse(response); break;
+      case 'series_show': ret = new SeriesShowResponse(response); break;
+      case 'series_work': ret = new SeriesWorkResponse(response); break;
+      case 'shelf_list': ret = new ShelfListResponse(response); break;
       default:
         console.log(`no parser configured for ${response.method}`, response.method);
     }
-    return undefined;
+    return ret;
   }
 }
 

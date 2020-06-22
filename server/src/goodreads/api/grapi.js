@@ -162,7 +162,7 @@ class GRAPI {
       return xml2js.parseStringPromise(responseXML /* this.xmlOptions */ )
         .then(result => {
           let resp = new Response(result)
-          console.log('grapi response object:', resp);
+          // console.log('grapi response object:', resp);
           return resp;
         });
     }).catch(err => console.error(err));
