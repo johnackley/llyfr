@@ -1,21 +1,22 @@
 const fs = require('fs');
 const xml2js = require('xml2js');
+const { Response } = require('../response');
 const { ShelfListResponse } = require('../shelf-list-response');
 
 const method = 'shelf_list'
-let payload;
+let response;
 
 beforeAll(async () => {
   const responseXML = fs.readFileSync(`test-data/${method}.xml`, 'utf8');
   return xml2js.parseStringPromise(responseXML)
-    .then(result => {payload = result.GoodreadsResponse;});
+    .then(result => {response = new Response(result);});
 });
 
 test('verify message type', () => {
-  expect(payload.Request[0].method[0]).toBe(method);
+  expect(response.method).toBe(method);
 });
 
 test('shelf-list-response parse', () => {
-  const actual = new ShelfListResponse(payload);
+  const actual = new ShelfListResponse(response);
   expect(actual).toBeDefined();
 });

@@ -1,13 +1,14 @@
 const { Pagination } = require('./pagination');
 const { ShelfList } = require('../../shelf-list');
-const { BadMethodError } = require('../bad-method');
+const { BadMethodError } = require('../errors');
 
 class ShelfListResponse {
-  constructor(data) {
-    // console.log('shelf-ref data:', data);
-    if (data.Request[0].method[0] !== 'shelf_list') { throw new BadMethod('shelf_list', data.Request[0].method[0]); }
-    this.pagination = new Pagination(data.shelves[0]['$']);
-    this.shelf_list = new ShelfList(data.shelves[0].user_shelf, this.pagination)
+  constructor(resp /* : Response */) {
+    // console.log('shelf-list data:', data);
+    if (resp.method !== 'shelf_list') { throw new BadMethodError('shelf_list', resp.method); }
+    const data = resp.payload;
+    this.shelf_list = new ShelfList(data.shelves[0].user_shelf, new Pagination(data.shelves[0]['$']))
+    // console.log('parsed shelf-list-response:', this);
   }
 }
 

@@ -24,5 +24,5 @@ async function doit(n) {
 }
 
 // for (let i = 1; i < 8; i++) { console.log(JSON.stringify(doit(i), null, 1)); }
-let thing = doit( 7 );
-console.log(JSON.stringify(thing, null, 1));
+let thing = doit( 4 ); // {blow: 'me'}; // 
+if (thing) console.log(JSON.stringify(thing, null, 1));

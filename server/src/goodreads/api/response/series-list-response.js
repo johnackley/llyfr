@@ -1,10 +1,11 @@
 const { SeriesWork } = require('../../series-work');
-const { BadMethodError } = require('../bad-method');
+const { BadMethodError } = require('../errors');
 
 class SeriesListResponse {
-  constructor(data) {
-    // console.log('series-list data:', data.series_works);
-    if (data.Request[0].method[0] !== 'series_list') { throw new BadMethod('series_list', data.Request[0].method[0]); }
+  constructor(resp /* : Response */) {
+    // console.log('series-list data:', data);
+    if (resp.method !== 'series_list') { throw new BadMethodError('series_list', resp.method); }
+    const data = resp.payload;
     this.series_works = data.series_works[0].series_work.map(x => new SeriesWork(x));
     // console.log('parsed series-list:', this);
   }

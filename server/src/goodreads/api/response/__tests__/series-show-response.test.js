@@ -1,28 +1,29 @@
 const fs = require('fs');
 const xml2js = require('xml2js');
+const { Response } = require('../response');
 const { SeriesShowResponse } = require('../series-show-response');
 
 const method = 'series_show'
-let payload;
+let response;
 
 beforeAll(async () => {
   const responseXML = fs.readFileSync(`test-data/${method}.xml`, 'utf8');
   return xml2js.parseStringPromise(responseXML)
-    .then(result => {payload = result.GoodreadsResponse;});
+    .then(result => {response = new Response(result);});
 });
 
 test('verify message type', () => {
-  expect(payload.Request[0].method[0]).toBe(method);
+  expect(response.method).toBe(method);
 });
 
 test('basic parse', () => {
-  const actual = new SeriesShowResponse(payload);
+  const actual = new SeriesShowResponse(response);
   expect(actual).toBeDefined();
   expect(actual.series).toBeDefined();
 });
 
 test('basic data', () => {
-  const actual = new SeriesShowResponse(payload);
+  const actual = new SeriesShowResponse(response);
   expect(actual.series.id).toBe('45935');
   expect(actual.series.title).toBe('Dune');
   expect(actual.series.series_works_count).toBe(31);

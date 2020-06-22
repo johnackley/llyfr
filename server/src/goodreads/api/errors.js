@@ -4,3 +4,7 @@ class BadMethodError extends Error {
     this.name = "BadMethodError"; // (2)
   }
 }
+
+module.exports = {
+  BadMethodError
+}

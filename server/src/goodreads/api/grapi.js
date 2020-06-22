@@ -4,7 +4,7 @@ const { Response } = require('./response/response');
 const { Parser } = require('./parser');
 
 class GRAPI {
-  constructor(options = {}) {
+  constructor(options) {
     this.options = options;
     this.lastFetchMS = 0;
     this.parser = new Parser();
@@ -157,10 +157,14 @@ class GRAPI {
       }
       if (this.options.noparse === true) {
         console.log('not parsing...')
-        return new Promise(function(resolve, reject) { resolve({}); });
+        return new Promise(function(resolve, reject) { resolve({not: 'my', seg: 'fault'}); });
       }
       return xml2js.parseStringPromise(responseXML /* this.xmlOptions */ )
-        .then(result => new Response(result));
+        .then(result => {
+          let resp = new Response(result)
+          console.log('grapi response object:', resp);
+          return resp;
+        });
     }).catch(err => console.error(err));
   }
 
