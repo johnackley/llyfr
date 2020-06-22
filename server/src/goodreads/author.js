@@ -2,7 +2,7 @@ const { ImageURL } = require('./image-url');
 const { Book } = require('./book');
 
 class Author {
-  constructor(data) {
+  constructor(data, pagination) {
     // console.log('author data:', data);
     this.id = data.id[0];
     this.name = data.name[0];
@@ -66,6 +66,10 @@ class Author {
     if (data.hasOwnProperty('books')) {
       this.books = data.books[0].book.map(x => new Book(x));
     }
+    if (pagination) {
+      this.pagination = pagination;
+    }
+    // console.log('parsed author:', this);
   }
 }
 
