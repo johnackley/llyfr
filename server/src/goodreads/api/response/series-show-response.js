@@ -3,6 +3,7 @@ const { Series } = require('../../series');
 class SeriesShowResponse {
   constructor(data) {
     // console.log('series-show data:', data.series[0]);
+    if (data.Request[0].method[0] !== 'series_show') { throw('wrong request.method'); }
     this.series = new Series(data.series[0]);
     // console.log('parsed series-show:', this);
   }
