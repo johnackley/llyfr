@@ -5,7 +5,7 @@ class WorkSeries {
     // console.log('work-series data:', data);
     this.id = data.id[0];
     this.user_position = data.user_position[0];
-    this.series = data.series.series.map(x => new Series(x));
+    this.series = data.series.map(x => new Series(x));
     // console.log('parsed work-series:', this);
   }
 }

@@ -10,7 +10,9 @@ class Series {
     this.series_works_count = parseInt(data.series_works_count[0], 10);
     this.primary_work_count = parseInt(data.primary_work_count[0], 10);
     this.numbered = data.numbered[0] === 'true';
-    this.series_works = data.series_works[0].series_work.map(x => new SeriesWork(x));
+    if (data.hasOwnProperty('series_works')) {
+      this.series_works = data.series_works[0].series_work.map(x => new SeriesWork(x));
+    }
     // console.log('parsed series:', this);
   }
 }

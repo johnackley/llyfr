@@ -18,15 +18,23 @@ test('verify message type', () => {
 test('basic parse', () => {
   const actual = new SeriesWorkResponse(payload);
   expect(actual).toBeDefined();
+  expect(actual.series_works).toBeDefined();
+  expect(actual.series_works.length).toBe(3);
 });
 
-test('basic data', () => {
-  const actual = new SeriesShowResponse(payload);
-  expect(actual.series.id).toBe('45935');
-  expect(actual.series.title).toBe('Dune');
-  expect(actual.series.series_works_count).toBe(31);
-  expect(actual.series.primary_work_count).toBe(8);
-  expect(actual.series.numbered).toBe(true);
-  expect(actual.series.series_works).toBeDefined();
-  expect(actual.series.series_works.length).toBe(31);
+test('basic element data', () => {
+  const ary = new SeriesWorkResponse(payload);
+  const actual = ary.series_works[0];
+  expect(actual.id).toBe('166801');
+  expect(actual.user_position).toBe('1');
+  expect(actual.series).toBeDefined();
+  expect(actual.series.length).toBe(1);
+});
+
+test('basic element data', () => {
+  const ary = new SeriesWorkResponse(payload);
+  const actual = ary.series_works[0].series[0];
+  expect(actual.id).toBe('45935');
+  expect(actual.title).toBe('Dune');
+  expect(actual.series_works_count).toBe(31);
 });
