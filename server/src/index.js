@@ -20,8 +20,9 @@ async function doit(n) {
   case 7: return await grapi.shelfList(JA_USER_ID, 1);
   case 8: return await grapi.ownedBooksList(JA_USER_ID, 1); // TODO OAUTH
   }
+  return new Promise(function(resolve, reject) { reject('bad option'); });
 }
 
 // for (let i = 1; i < 8; i++) { console.log(JSON.stringify(doit(i), null, 1)); }
-let thing = doit( 2 );
+let thing = doit( 7 );
 console.log(JSON.stringify(thing, null, 1));

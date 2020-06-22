@@ -1,9 +1,10 @@
 const { Author } = require('../../author');
+const { BadMethodError } = require('../bad-method');
 
 class AuthorShowResponse {
   constructor(data) {
     // console.log('author data:', data.author[0]);
-    if (data.Request[0].method[0] !== 'author_show') { throw('wrong request.method'); }
+    if (data.Request[0].method[0] !== 'author_show') { throw new BadMethod('author_show', data.Request[0].method[0]); }
     this.author = new Author(data.author[0]);
     // console.log('parsed author:', this);
   }

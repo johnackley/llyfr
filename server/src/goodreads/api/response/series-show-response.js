@@ -1,9 +1,10 @@
 const { Series } = require('../../series');
+const { BadMethodError } = require('../bad-method');
 
 class SeriesShowResponse {
   constructor(data) {
     // console.log('series-show data:', data.series[0]);
-    if (data.Request[0].method[0] !== 'series_show') { throw('wrong request.method'); }
+    if (data.Request[0].method[0] !== 'series_show') { throw new BadMethod('series_show', data.Request[0].method[0]); }
     this.series = new Series(data.series[0]);
     // console.log('parsed series-show:', this);
   }

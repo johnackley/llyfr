@@ -6,6 +6,7 @@ const { Parser } = require('./parser');
 class GRAPI {
   constructor(options = {}) {
     this.options = options;
+    this.lastFetchMS = 0;
     this.parser = new Parser();
   }
 
@@ -129,6 +130,11 @@ class GRAPI {
   // master fetch
   /////////////////////////////////////////////
   async fetch(path, payload) {
+    const now = this.getMillis();
+    if (now - this.lastFetchMS < 1000) {
+      console.log('>>> Whoa! Slow Down!', now);
+    }
+    this.lastFetchMS = this.getMillis();
     const qs = {
       key: process.env.GOODREADS_KEY,
       ...payload,
@@ -141,15 +147,26 @@ class GRAPI {
     }
     
     return request(options).then(async (responseXML) => {
-      if (this.options.dumpXML) {
+      // if(responseXML.status !== 200)
+      // {
+      //    throw new Error(responseXML.status)
+      // }
+
+      if (this.options.dumpXML === true) {
         console.log('fetched xml: ', responseXML);
       }
-      if (this.options.noparse) {
+      if (this.options.noparse === true) {
+        console.log('not parsing...')
         return new Promise(function(resolve, reject) { resolve({}); });
       }
       return xml2js.parseStringPromise(responseXML /* this.xmlOptions */ )
         .then(result => new Response(result));
     }).catch(err => console.error(err));
+  }
+
+  getMillis() {
+    let now = new Date();
+    return now.getTime() + now.getMilliseconds();
   }
 
 }

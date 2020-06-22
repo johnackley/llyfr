@@ -11,7 +11,7 @@ class Parser {
   constructor() {
   }
 
-  async parse(response /* : Response */) {
+  parse(response /* : Response */) {
     try {
       switch (response.method) {
         case 'author_list': return new AuthorListResponse(response.payload);
@@ -27,6 +27,7 @@ class Parser {
     } catch(err) {
       console.log('parser caught expection:', err);
     }
+    return undefined;
   }
 }
 
