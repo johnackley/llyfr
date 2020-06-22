@@ -13,6 +13,7 @@ class Parser {
       case 'author_list': return new AuthorList(response.payload);
       case 'author_show': return new AuthorShow(response.payload);
       case 'review_list': return new ReviewList(response.payload);
+      case 'series_list': return new SeriesShow(response.payload);
       case 'series_show': return new SeriesShow(response.payload);
       case 'shelf_list': return new ShelfList(response.payload);
       default:

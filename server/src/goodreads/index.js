@@ -10,7 +10,8 @@ const { Pagination } = require('./pagination');
 const { Parser } = require('./parser');
 const { Response } = require('./response');
 const { Review } = require('./review');
-const { Series } = require('./series');
+// const { Series } = require('./series');
+const { SeriesList } = require('./series-list');
 const { SeriesShow } = require('./series-show');
 const { SeriesWork } = require('./series-work');
 const { Shelf } = require('./shelf');
@@ -22,6 +23,10 @@ const { WorkRef } = require('./work-ref');
 
 module.exports = {
   Author,
+  AuthorList,
+  AuthorRef,
+  AuthorShow,
+  BestBook,
   Book,
   ImageURL,
   GRAPI,
@@ -29,8 +34,14 @@ module.exports = {
   Parser,
   Response,
   Review,
+  // Series,
+  SeriesList,
+  SeriesShow,
+  SeriesWork,
   Shelf,
   ShelfList,
   ShelfRef,
-  Work
+  UserShelf,
+  Work,
+  WorkRef,  
 }

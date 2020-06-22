@@ -10,7 +10,8 @@ async function doit() {
   const JA_USER_ID = 93029742;
   const DUNE_SERIES_ID = 45935;
 
-  thing = await grapi.seriesShow(DUNE_SERIES_ID);
+  thing = await grapi.seriesList(DREW_HAYES_ID);
+  // thing = await grapi.seriesShow(DNUE_SERIES_ID);
   // thing = await grapi.authorShow(ANDY_HOPP_ID, 1);
   // thing = await grapi.authorBooks(ANDY_HOPP_ID, 1);
   // thing = await grapi.reviewList(JA_USER_ID, 'gaming', 999);

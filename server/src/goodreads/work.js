@@ -2,7 +2,7 @@ const { BestBook } = require('./best-book');
 
 class Work {
   constructor(data) {
-    console.log('work data:', data.best_book);
+    // console.log('work data:', data.best_book);
     this.id = data.id[0];
     this.uri = data.uri[0];
     this.best_book = data.best_book[0];
@@ -25,7 +25,7 @@ class Work {
       this.average_rating = parseFloat(data.average_rating[0]);
     }
     this.best_book = new BestBook(data.best_book[0]);
-    console.log('parsed work:', this);
+    // console.log('parsed work:', this);
   }
 }
 

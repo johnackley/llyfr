@@ -2,11 +2,11 @@ const { Work } = require('./work');
 
 class SeriesWork {
   constructor(data) {
-    console.log('series-work data:', data.work[0]);
+    // console.log('series-work data:', data.work[0]);
     this.id = data.id[0];
     this.user_position = data.user_position[0];
     this.work = new Work(data.work[0]);
-    console.log('parsed series-show:', this);
+    // console.log('parsed series-show:', this);
   }
 }
 

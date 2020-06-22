@@ -3,7 +3,7 @@ const { ImageURL } = require('./image-url');
 
 class BestBook {
   constructor(data) {
-    console.log('best-book data:', data.author[0]);
+    // console.log('best-book data:', data.author[0]);
     this.id = data.id[0];
     this.title = data.title[0].trim();
     this.image_url = new ImageURL(data.image_url[0]);
