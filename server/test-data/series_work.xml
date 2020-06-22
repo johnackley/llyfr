@@ -5,86 +5,57 @@
     <method><![CDATA[series_work]]></method>
   </Request>
   <series_works>
-<series_work>
-<id>166801</id>
-<user_position>1</user_position>
-<series>
-<id>45935</id>
-<title>
-<![CDATA[
-    Dune
-]]>
-</title>
-<description>
-<![CDATA[
-    Also known as Dune Saga, Kroniki Diuny and Dyyni.
-    
-    • <a href="/series/49401-prelude-to-dune">Prelude to Dune</a>
-    • <a href="/series/45567-legends-of-dune">Legends of Dune</a>
-    • <a href="/series/49402-heroes-of-dune">Heroes of Dune</a>
-    • <a href="/series/104537-schools-of-dune">Schools of Dune</a>
-]]>
-</description>
-<note>
-<![CDATA[
-]]>
-</note>
-<series_works_count>31</series_works_count>
-<primary_work_count>8</primary_work_count>
-<numbered>true</numbered>
-</series>
+    <series_work>
+      <id>166801</id>
+      <user_position>1</user_position>
+      <series>
+        <id>45935</id>
+        <title> <![CDATA[ Dune ]]> </title>
+        <description>
+          <![CDATA[
+              Also known as Dune Saga, Kroniki Diuny and Dyyni.
+              
+              • <a href="/series/49401-prelude-to-dune">Prelude to Dune</a>
+              • <a href="/series/45567-legends-of-dune">Legends of Dune</a>
+              • <a href="/series/49402-heroes-of-dune">Heroes of Dune</a>
+              • <a href="/series/104537-schools-of-dune">Schools of Dune</a>
+          ]]>
+        </description>
+        <note> <![CDATA[ ]]> </note>
+        <series_works_count>31</series_works_count>
+        <primary_work_count>8</primary_work_count>
+        <numbered>true</numbered>
+      </series>
+    </series_work>
 
-</series_work>
-<series_work>
-<id>1245909</id>
-<user_position></user_position>
-<series>
-<id>236093</id>
-<title>
-<![CDATA[
-    Имперская серия
-]]>
-</title>
-<description>
-<![CDATA[
-]]>
-</description>
-<note>
-<![CDATA[
-    Издания книг цикла «Дюны» в данной серии известны также как «Синяя (Голубая) Дюна».
-]]>
-</note>
-<series_works_count>4</series_works_count>
-<primary_work_count>4</primary_work_count>
-<numbered>false</numbered>
-</series>
+    <series_work>
+      <id>1245909</id>
+      <user_position></user_position>
+      <series>
+        <id>236093</id>
+        <title> <![CDATA[ Имперская серия ]]> </title>
+        <description> <![CDATA[ ]]> </description>
+        <note> <![CDATA[ Издания книг цикла «Дюны» в данной серии известны также как «Синяя (Голубая) Дюна».  ]]> </note>
+        <series_works_count>4</series_works_count>
+        <primary_work_count>4</primary_work_count>
+        <numbered>false</numbered>
+      </series>
+    </series_work>
 
-</series_work>
-<series_work>
-<id>514666</id>
-<user_position>10</user_position>
-<series>
-<id>106170</id>
-<title>
-<![CDATA[
-    Dune Universe
-]]>
-</title>
-<description>
-<![CDATA[
-]]>
-</description>
-<note>
-<![CDATA[
-]]>
-</note>
-<series_works_count>25</series_works_count>
-<primary_work_count>22</primary_work_count>
-<numbered>true</numbered>
-</series>
+    <series_work>
+      <id>514666</id>
+      <user_position>10</user_position>
+      <series>
+        <id>106170</id>
+        <title> <![CDATA[ Dune Universe ]]> </title>
+        <description> <![CDATA[ ]]> </description>
+        <note> <![CDATA[ ]]> </note>
+        <series_works_count>25</series_works_count>
+        <primary_work_count>22</primary_work_count>
+        <numbered>true</numbered>
+      </series>
+    </series_work>
 
-</series_work>
-
-</series_works>
+  </series_works>
 
 </GoodreadsResponse>
