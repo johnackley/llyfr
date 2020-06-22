@@ -1,28 +1,10 @@
-const { ImageURL } = require('../../image-url');
-const { Book } = require('../../book');
+const { Author } = require('../../author');
 
 class AuthorShowResponse {
   constructor(data) {
     // console.log('author data:', data.author[0]);
     if (data.Request[0].method[0] !== 'author_show') { throw('wrong request.method'); }
-    this.id = data.author[0].id[0];
-    this.name = data.author[0].name[0];
-    this.link = data.author[0].link[0];
-    this.image_url = new ImageURL(data.author[0].image_url[0]);
-    this.small_image_url = new ImageURL(data.author[0].small_image_url[0]);
-    this.large_image_url = new ImageURL(data.author[0].large_image_url[0]);
-    this.fans_count = parseInt(data.author[0].fans_count[0]['_'], 10);
-    this.author_followers_count = parseInt(data.author[0].author_followers_count[0]['_'], 10);
-    this.about = data.author[0].about[0];
-    this.influences = data.author[0].influences[0];
-    this.works_count = parseInt(data.author[0].works_count[0], 10);
-    this.gender = data.author[0].gender[0];
-    this.hometown = data.author[0].hometown[0];
-    this.born_at = data.author[0].born_at[0];
-    this.died_at = data.author[0].died_at[0];
-    this.goodreads_author = data.author[0].goodreads_author[0];
-    this.userId = data.author[0].user[0].id[0]['_'];
-    this.books = data.author[0].books[0].book.map(x => new Book(x));
+    this.author = new Author(data.author[0]);
     // console.log('parsed author:', this);
   }
 }

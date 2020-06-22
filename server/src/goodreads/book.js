@@ -1,4 +1,4 @@
-const { Author } = require('./author');
+const { AuthorRef } = require('./author-ref');
 const { ImageURL } = require('./image-url');
 const { WorkRef } = require('./work-ref');
 
@@ -28,7 +28,7 @@ class Book {
     this.description = data.description[0] ? data.description[0].trim() : '';
     this.published = data.published[0];
     this.workRef = new WorkRef(data.work[0]);
-    this.authors = data.authors[0].author.map(author => new Author(author));
+    this.authors = data.authors[0].author.map(author => new AuthorRef(author));
   }
 }
 
