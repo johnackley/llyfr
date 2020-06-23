@@ -1,6 +1,6 @@
 const { Review } = require('./review');
 
-class ReviewList {
+class ShelfContents {
   constructor(data, reviewData, pagination) {
     // console.log('review-ref data:', data);
     this.name = data.name;
@@ -20,7 +20,7 @@ class ReviewList {
   }
 }
 
-module.exports = { ReviewList };
+module.exports = { ShelfContents };
 
 // ShelfRef: exclusive='true' id='302365040' name='to-read' sortable='true'
 // review_shelf_id: string; // '3030698042'

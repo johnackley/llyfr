@@ -1,5 +1,5 @@
 const { Pagination } = require('./pagination');
-const { ReviewList } = require('../../review-list');
+const { ShelfContents } = require('../../shelf-contents');
 const { BadMethodError } = require('../errors');
 
 class ReviewListResponse {
@@ -8,7 +8,7 @@ class ReviewListResponse {
     if (resp.method !== 'review_list') { throw new BadMethodError('review_list', resp.method); }
     const data = resp.payload;
     this.pagination = new Pagination(data.reviews[0]['$']);
-    this.reviewList = new ReviewList(data.shelf[0]['$'], data.reviews[0].review, this.pagination);
+    this.reviewList = new ShelfContents(data.shelf[0]['$'], data.reviews[0].review, this.pagination);
     // console.log('parsed review-list:', this);
   }
 }

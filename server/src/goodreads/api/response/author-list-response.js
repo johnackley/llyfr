@@ -1,5 +1,5 @@
 const { Pagination } = require('./pagination');
-const { Author } = require('../../author');
+const { AuthorBooks } = require('../../author-books');
 const { BadMethodError } = require('../errors');
 
 class AuthorListResponse {
@@ -8,7 +8,7 @@ class AuthorListResponse {
     if (resp.method !== 'author_list') { throw new BadMethodError('author_list', resp.method); }
     const data = resp.payload;
     this.pagination = new Pagination(data.author[0].books[0]['$']);
-    this.author = new Author(data.author[0], this.pagination);
+    this.author_books = new AuthorBooks(data.author[0], this.pagination);
     // console.log('parsed author-list:', this);
   }
 }

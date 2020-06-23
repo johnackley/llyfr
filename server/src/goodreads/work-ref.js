@@ -1,8 +1,9 @@
 class WorkRef {
   constructor(data) {
-    // console.log('work data:', data);
+    // console.log('work-ref data:', data);
     this.id = data.id[0];
     this.uri = data.uri[0];
+    // console.log('parsed work-ref:', this);
   }
 }
 

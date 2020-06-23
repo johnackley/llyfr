@@ -20,3 +20,30 @@ test('basic parse', () => {
   const actual = new AuthorListResponse(response);
   expect(actual).toBeDefined();
 });
+
+test('author-ref parse', () => {
+  const msg = new AuthorListResponse(response);
+  const actual = msg.author_books;
+  expect(actual).toBeDefined();
+});
+
+test('author id parse', () => {
+  const msg = new AuthorListResponse(response);
+  const actual = msg.author_books;
+  expect(actual.author_ref).toBeDefined();
+  expect(actual.author_ref.id).toBe('42705');
+});
+
+test('author id parse', () => {
+  const msg = new AuthorListResponse(response);
+  const actual = msg.author_books.author_ref;
+  expect(actual).toBeDefined();
+  expect(actual.id).toBe('42705');
+});
+
+test('author books parse', () => {
+  const msg = new AuthorListResponse(response);
+  const actual = msg.author_books.books;
+  expect(actual).toBeDefined();
+  expect(actual.length).toBe(9);
+});

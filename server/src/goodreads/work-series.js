@@ -1,11 +1,13 @@
-const { Series } = require('./series');
+const { SeriesEntry } = require('./series-entry');
+// const { WorkRef } = require('./work-ref');
 
 class WorkSeries {
   constructor(data) {
     // console.log('work-series data:', data);
-    this.id = data.id[0];
-    this.user_position = data.user_position[0];
-    this.series = data.series.map(x => new Series(x));
+    // get first one
+    const work_data = {id: ['12'], uri: ['xyz']}; // data[0];
+    // this.work_ref = new WorkRef(work_data);
+    this.series_entries = data.map(x => new SeriesEntry(x));
     // console.log('parsed work-series:', this);
   }
 }
