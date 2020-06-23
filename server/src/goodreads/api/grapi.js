@@ -21,7 +21,7 @@ class GRAPI {
   }
 
   // https://www.goodreads.com/api/index#author.show   —   Get info about an author by id.
-  async authorShow(authorId) {
+  async authorDetails(authorId) {
     return this.fetch('author/show.xml', { id: authorId })
       .then(response => this.parser.parse(response));
   }
@@ -36,10 +36,10 @@ class GRAPI {
   // TODO
 
   // https://www.goodreads.com/api/index#owned_books.list   —   List books owned by a user.
-  async ownedBooksList(userId, page = 1) { // TODO OAUTH
-    return this.fetch(`owned_books/user?format=xml`, { id: userId, page: page })
-      .then(response => this.parser.parse(response));
-  }
+  // async ownedBooksList(userId, page = 1) { // TODO OAUTH
+  //   return this.fetch(`owned_books/user?format=xml`, { id: userId, page: page })
+  //     .then(response => this.parser.parse(response));
+  // }
 
   // https://www.goodreads.com/api/index#owned_books.show   —   Show an owned book.
   // TODO
@@ -51,46 +51,56 @@ class GRAPI {
   // TODO
 
   // https://www.goodreads.com/api/index#reviews.list   —   Get the books on a members shelf.
-  async reviewList(userId, name, perPage = process.env.PER_PAGE) {
+  async shelfContents(userId, name, perPage = process.env.PER_PAGE) {
     return this.fetch(`review/list/${userId}.xml`, { v: 2, shelf: name, per_page: perPage })
       .then(response => this.parser.parse(response));
   }
 
   // https://www.goodreads.com/api/index#series.show   —   See a series.
-  async seriesShow(seriesId) {
+  async seriesDetails(seriesId) {
     return this.fetch(`series/show/${seriesId}.xml`, {})
       .then(response => this.parser.parse(response));
   }
 
   // https://www.goodreads.com/api/index#series.list   —   See all series by an author.
-  async seriesList(authorId) { // series/list?format=xml&id=AUTHOR_ID 
+  async authorSeries(authorId) { // series/list?format=xml&id=AUTHOR_ID
     return this.fetch(`series/list?format=xml&id=${authorId}`, {})
       .then(response => this.parser.parse(response));
   }
 
   // https://www.goodreads.com/api/index#series.work   —   See all series a work is in.
-  async seriesWork(workId) { // series/list?format=xml&id=AUTHOR_ID 
+  async workSeries(workId) { // series/list?format=xml&id=AUTHOR_ID
     return this.fetch(`series/work/${workId}?format=xml`, {})
       .then(response => this.parser.parse(response));
   }
 
   // https://www.goodreads.com/api/index#shelves.add_to_shelf   —   Add a book to a shelf.
-  // TODO
+  // POST shelf/add_to_shelf.xml { name: book_id: a: (for 'remove'ing)}
 
   // https://www.goodreads.com/api/index#shelves.add_books_to_shelves   —   Add books to many shelves.
-  // TODO
+  // OAUTH POST shelf/add_books_to_shelves.xml { bookids: shelves: }
 
   // https://www.goodreads.com/api/index#shelves.list   —   Get a user's shelves.
-  async shelfList(userId, page = 1) {
+  async userShelves(userId, page = 1) {
     return this.fetch('shelf/list.xml', { user_id: userId, page: page })
       .then(response => this.parser.parse(response));
   }
 
   // https://www.goodreads.com/api/index#user_shelves.create   —   Add book shelf.
-  // TODO
+  // POST user_shelves.xml
+  // user_shelf[name]: Name of the new shelf
+  // user_shelf[exclusive_flag]: 'true' or 'false' (optional, default false)
+  // user_shelf[sortable_flag]: 'true' or 'false' (optional, default false)
+  // user_shelf[featured]: 'true' or 'false' (optional, default false)
+
+
 
   // https://www.goodreads.com/api/index#user_shelves.update   —   Edit book shelf.
-  // TODO
+  // PUT user_shelves/USER_SHELF_ID.xml
+  // user_shelf[name]: Name of the new shelf
+  // user_shelf[exclusive_flag]: 'true' or 'false' (optional, default false)
+  // user_shelf[sortable_flag]: 'true' or 'false' (optional, default false)
+  // user_shelf[featured]: 'true' or 'false' (optional, default false)
 
 
   // https://www.goodreads.com/api/index#work.editions   —   See all editions by work.
@@ -115,7 +125,7 @@ class GRAPI {
       uri: `https://www.goodreads.com/${path}`,
       qs: qs
     }
-    
+
     return request(options).then(async (responseXML) => {
       // if(responseXML.status !== 200)
       // {

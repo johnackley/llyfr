@@ -19,14 +19,23 @@ test('verify message type', () => {
 test('basic parse', () => {
   const actual = new SeriesListResponse(response);
   expect(actual).toBeDefined();
-  expect(actual.series_works).toBeDefined();
-  expect(actual.series_works.length).toBe(16);
-  expect(actual.series_works[0]).toBeDefined();
+  expect(actual.author_series).toBeDefined();
+  expect(actual.author_series.series.length).toBe(16);
+  expect(actual.author_series.series[0]).toBeDefined();
+});
+
+test('author info', () => {
+  const actual = new SeriesListResponse(response);
+  expect(actual).toBeDefined();
+  expect(actual.author_series).toBeDefined();
+  expect(actual.author_series.author_ref).toBeDefined();
+  expect(actual.author_series.author_ref.id).toBe('7077654');
+  expect(actual.author_series.author_ref.name).toBe('Drew  Hayes');
 });
 
 test('basic element data', () => {
   const resp = new SeriesListResponse(response);
-  const actual = resp.series_works[0];
+  const actual = resp.author_series.series[0];
   expect(actual.id).toBe('1476298');
   expect(actual.user_position).toBe('1');
   expect(actual.series).toBeDefined();
@@ -35,14 +44,14 @@ test('basic element data', () => {
 
 test('basic series data', () => {
   const resp = new SeriesListResponse(response);
-  const actual = resp.series_works[0].series;
+  const actual = resp.author_series.series[0].series;
   expect(actual.id).toBe('268322');
   expect(actual.title).toBe('5-Minute Sherlock');
 });
 
 test('basic work data', () => {
   const resp = new SeriesListResponse(response);
-  const actual = resp.series_works[0].work;
+  const actual = resp.author_series.series[0].work;
   expect(actual.id).toBe('71235979');
   expect(actual.uri).toBe('kca://work/amzn1.gr.work.v1.SGy9mhe5QazMiTepBCZO9g');
   expect(actual.best_book).toBeDefined();
@@ -50,7 +59,7 @@ test('basic work data', () => {
 
 test('basic best-book data', () => {
   const resp = new SeriesListResponse(response);
-  const actual = resp.series_works[0].work.best_book;
+  const actual = resp.author_series.series[0].work.best_book;
   expect(actual.id).toBe('46253321');
   expect(actual.title).toBe('The Case of the Damaged Detective (5-Minute Sherlock, #1)');
 });

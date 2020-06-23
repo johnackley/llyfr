@@ -1,4 +1,4 @@
-const { SeriesWork } = require('../../series-work');
+const { AuthorSeries } = require('../../author-series');
 const { BadMethodError } = require('../errors');
 
 class SeriesListResponse {
@@ -6,7 +6,7 @@ class SeriesListResponse {
     // console.log('series-list data:', data);
     if (resp.method !== 'series_list') { throw new BadMethodError('series_list', resp.method); }
     const data = resp.payload;
-    this.series_works = data.series_works[0].series_work.map(x => new SeriesWork(x));
+    this.author_series = new AuthorSeries(data.series_works[0]);
     // console.log('parsed series-list:', this);
   }
 }
